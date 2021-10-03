@@ -1,0 +1,11 @@
+<VitisHLS:BurstInfo>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="fir.cpp:25:15" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr inbounds ([11 x i32], [11 x i32]* @_ZZ3firPiiE9shift_reg, i64 0, i64 0)" ID="bb2.store.1" VarName="_ZZ3firPiiE9shift_reg"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="fir.cpp:28:5" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by 1" ID="bb2.store.5" VarName="1"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="fir.cpp:22:18" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr" ID="bb1.load.6" VarName="_ZZ3firPiiE9shift_reg"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="fir.cpp:22:16" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr" ID="bb1.store.8" VarName="_ZZ3firPiiE9shift_reg"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="fir.cpp:23:23" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr" ID="bb1.load.10" VarName="_ZZ3firPiiE1c"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="fir.cpp:22:18" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr" ID="bb1.load.6" VarName="_ZZ3firPiiE9shift_reg"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="fir.cpp:22:16" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr" ID="bb1.store.8" VarName="_ZZ3firPiiE9shift_reg"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="fir.cpp:23:23" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr" ID="bb1.load.10" VarName="_ZZ3firPiiE1c"/>
+</VitisHLS:BurstInfo>
+

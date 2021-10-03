@@ -1,0 +1,138 @@
+
+
+================================================================
+== Vitis HLS Report for 'fir'
+================================================================
+* Date:           Sat Oct  2 17:21:09 2021
+
+* Version:        2021.1.1 (Build 3286242 on Wed Jul 28 13:09:46 MDT 2021)
+* Project:        baseline
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  6.912 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       17|       17|  0.170 us|  0.170 us|   18|   18|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 3
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 6.91>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%x_read = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %x"   --->   Operation 4 'read' 'x_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%sum_loc = alloca i64 1"   --->   Operation 5 'alloca' 'sum_loc' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [2/2] (0.00ns)   --->   "%call_ln0 = call void @fir_Pipeline_VITIS_LOOP_21_1, i32 %sum_loc, i32 %shift_reg, i32 %fir_int_int_c"   --->   Operation 6 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 7 [2/2] (6.91ns)   --->   "%mul_ln26 = mul i32 %x_read, i32 53" [fir.cpp:26]   --->   Operation 7 'mul' 'mul_ln26' <Predicate = true> <Delay = 6.91> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 1> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+
+State 2 <SV = 1> <Delay = 6.91>
+ST_2 : Operation 8 [1/2] (0.00ns)   --->   "%call_ln0 = call void @fir_Pipeline_VITIS_LOOP_21_1, i32 %sum_loc, i32 %shift_reg, i32 %fir_int_int_c"   --->   Operation 8 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 9 [1/2] (6.91ns)   --->   "%mul_ln26 = mul i32 %x_read, i32 53" [fir.cpp:26]   --->   Operation 9 'mul' 'mul_ln26' <Predicate = true> <Delay = 6.91> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 1> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+
+State 3 <SV = 2> <Delay = 2.55>
+ST_3 : Operation 10 [1/1] (0.00ns)   --->   "%spectopmodule_ln0 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_1"   --->   Operation 10 'spectopmodule' 'spectopmodule_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 11 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %y"   --->   Operation 11 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 12 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %y, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0"   --->   Operation 12 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 13 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %x"   --->   Operation 13 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 14 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %x, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0"   --->   Operation 14 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 15 [1/1] (0.00ns)   --->   "%sum_loc_load = load i32 %sum_loc"   --->   Operation 15 'load' 'sum_loc_load' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 16 [1/1] (2.32ns)   --->   "%store_ln25 = store i32 %x_read, i32 0" [fir.cpp:25]   --->   Operation 16 'store' 'store_ln25' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 11> <RAM>
+ST_3 : Operation 17 [1/1] (2.55ns)   --->   "%sum = add i32 %sum_loc_load, i32 %mul_ln26" [fir.cpp:26]   --->   Operation 17 'add' 'sum' <Predicate = true> <Delay = 2.55> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 18 [1/1] (0.00ns)   --->   "%write_ln28 = write void @_ssdm_op_Write.ap_auto.i32P0A, i32 %y, i32 %sum" [fir.cpp:28]   --->   Operation 18 'write' 'write_ln28' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 19 [1/1] (0.00ns)   --->   "%ret_ln29 = ret" [fir.cpp:29]   --->   Operation 19 'ret' 'ret_ln29' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 6.91ns
+The critical path consists of the following:
+	wire read operation ('x') on port 'x' [5]  (0 ns)
+	'mul' operation ('mul_ln26', fir.cpp:26) [15]  (6.91 ns)
+
+ <State 2>: 6.91ns
+The critical path consists of the following:
+	'mul' operation ('mul_ln26', fir.cpp:26) [15]  (6.91 ns)
+
+ <State 3>: 2.55ns
+The critical path consists of the following:
+	'load' operation ('sum_loc_load') on local variable 'sum_loc' [13]  (0 ns)
+	'add' operation ('sum', fir.cpp:26) [16]  (2.55 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

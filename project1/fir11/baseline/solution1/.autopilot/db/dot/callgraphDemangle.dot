@@ -1,0 +1,5 @@
+digraph "Call graph demangled" {
+	label="Call graph demangled";
+
+	Node0x3a2e860 [shape=record,label="{fir(int*, int)}" fid="1" demanglename="fir" manglename="_Z3firPii" filename="../../../../fir.cpp" linenumber="15"];
+}
