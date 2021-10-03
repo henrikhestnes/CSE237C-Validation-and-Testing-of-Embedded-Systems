@@ -1,0 +1,90 @@
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2021.1/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'henrikhestnes' on host 'ubuntu' (Linux_x86_64 version 5.4.0-88-generic) on Sat Oct 02 00:13:56 PDT 2021
+INFO: [HLS 200-10] On os Ubuntu 20.04.3 LTS
+INFO: [HLS 200-10] In directory '/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab3'
+Sourcing Tcl script '/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab3/fir_prj/solution3/csynth.tcl'
+INFO: [HLS 200-1510] Running: open_project fir_prj 
+INFO: [HLS 200-10] Opening project '/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab3/fir_prj'.
+INFO: [HLS 200-1510] Running: set_top fir 
+INFO: [HLS 200-1510] Running: add_files fir.c 
+INFO: [HLS 200-10] Adding design file 'fir.c' to the project
+INFO: [HLS 200-1510] Running: add_files -tb fir_test.c -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'fir_test.c' to the project
+INFO: [HLS 200-1510] Running: add_files -tb out.gold.dat -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'out.gold.dat' to the project
+INFO: [HLS 200-1510] Running: open_solution solution3 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution '/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab3/fir_prj/solution3'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flgb2104-1-i'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.1;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xcvu9p-flgb2104-1-i 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: set_directive_top -name fir fir 
+INFO: [HLS 200-1510] Running: set_directive_bind_storage -type ram_1p -impl bram fir c 
+INFO: [HLS 200-1510] Running: set_directive_unroll fir/Shift_Accum_Loop 
+INFO: [HLS 200-1510] Running: set_directive_array_partition -dim 1 -type complete fir shift_reg 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.974 MB.
+INFO: [HLS 200-10] Analyzing design file 'fir.c' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1.15 seconds. CPU system time: 0.45 seconds. Elapsed time: 0.8 seconds; current allocated memory: 253.287 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+WARNING: [HLS 214-185] The resource pragma (storage) on function argument, in 'call' is unsupported (fir.c:52:6)
+INFO: [HLS 214-186] Unrolling loop 'Shift_Accum_Loop' (fir.c:65:21) in function 'fir' completely with a factor of 11 (fir.c:52:0)
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 5.25 seconds. CPU system time: 0.52 seconds. Elapsed time: 5.44 seconds; current allocated memory: 255.347 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.348 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 256.380 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 255.771 MB.
+INFO: [XFORM 203-101] Partitioning array 'shift_reg'  in dimension 1 completely.
+INFO: [XFORM 203-11] Balancing expressions in function 'fir' (fir.c:49)...10 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 275.921 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 268.011 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fir' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.14 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.17 seconds; current allocated memory: 268.425 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.11 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 268.750 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/y' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/c' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/x' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fir' to 'ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'shift_reg_9' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_8' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_7' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_6' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_5' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_4' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_3' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_0' is power-on initialization.
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_32_1_1': 11 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fir'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.17 seconds. CPU system time: 0 seconds. Elapsed time: 0.17 seconds; current allocated memory: 269.444 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.75 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.77 seconds; current allocated memory: 272.569 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.35 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.36 seconds; current allocated memory: 278.860 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for fir.
+INFO: [VLOG 209-307] Generating Verilog RTL for fir.
+INFO: [HLS 200-789] **** Estimated Fmax: 155.18 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 8.04 seconds. CPU system time: 1.06 seconds. Elapsed time: 7.96 seconds; current allocated memory: 278.844 MB.
+INFO: [HLS 200-112] Total CPU user time: 12.34 seconds. Total CPU system time: 1.84 seconds. Total elapsed time: 11.02 seconds; peak allocated memory: 278.860 MB.

@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1633145710546">
+  <ports id="1" name="y" type="PortType" originalName="y" coreId="3621216858" bitwidth="32" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="2" name="c" type="PortType" coreName="RAM" coreId="0" bitwidth="32" iftype="IfTypeRegister" arraysize="11">
+    <dataOutputObjs>getelementptr</dataOutputObjs>
+  </ports>
+  <ports id="3" name="x" type="PortType" originalName="x" coreId="0" bitwidth="32">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <edges id="64" source_obj="//@ports.2" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="67" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.3"/>
+  <edges id="70" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.4"/>
+  <edges id="71" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="72" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="75" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="78" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="79" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="80" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="81" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.0"/>
+  <edges id="82" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="83" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="86" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="87" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="88" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.3" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="89" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.0"/>
+  <edges id="93" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.4" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.1"/>
+  <edges id="94" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.0"/>
+  <edges id="97" source_obj="//@regions.0/@basic_blocks.2/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.1"/>
+  <edges id="98" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.2"/>
+  <edges id="101" source_obj="//@regions.0/@basic_blocks.2/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.2"/>
+  <edges id="102" source_obj="//@regions.0/@basic_blocks.2/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.3"/>
+  <edges id="103" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.4"/>
+  <edges id="105" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.4"/>
+  <edges id="106" source_obj="//@regions.0/@basic_blocks.2/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.5"/>
+  <edges id="107" source_obj="//@regions.0/@basic_blocks.2/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.5"/>
+  <edges id="108" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.4" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.6"/>
+  <edges id="111" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.3" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.0"/>
+  <edges id="112" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.0"/>
+  <edges id="113" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.2" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.0"/>
+  <edges id="114" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.1"/>
+  <edges id="115" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.3" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.1"/>
+  <edges id="116" source_obj="//@regions.0/@basic_blocks.2/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.1"/>
+  <edges id="117" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.2" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.1"/>
+  <edges id="118" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.2"/>
+  <edges id="119" source_obj="//@regions.0/@basic_blocks.4/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.3"/>
+  <edges id="120" source_obj="//@ports.1" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.4"/>
+  <edges id="122" source_obj="//@regions.0/@basic_blocks.4/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.4"/>
+  <edges id="123" source_obj="//@regions.0/@basic_blocks.4/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.5"/>
+  <edges id="124" source_obj="//@regions.0/@basic_blocks.4/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.6"/>
+  <edges id="125" source_obj="//@regions.0/@basic_blocks.4/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.6"/>
+  <edges id="126" source_obj="//@regions.0/@basic_blocks.4/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.7"/>
+  <edges id="127" source_obj="//@regions.0/@basic_blocks.4/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.7"/>
+  <edges id="128" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.8"/>
+  <edges id="131" source_obj="//@regions.0/@basic_blocks.4/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.9"/>
+  <edges id="132" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.9"/>
+  <edges id="133" source_obj="//@regions.0/@basic_blocks.4/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.10"/>
+  <edges id="134" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.10"/>
+  <edges id="135" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.11"/>
+  <edges id="136" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.1/@node_objs.0"/>
+  <edges id="139" source_obj="//@blocks.1/@node_objs.1" sink_obj="//@ports.0"/>
+  <edges id="140" source_obj="//@blocks.1/@node_objs.0" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="226" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0"/>
+  <edges id="227" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.1"/>
+  <edges id="228" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1"/>
+  <edges id="229" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.3"/>
+  <edges id="230" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.2"/>
+  <edges id="231" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.2" sink_obj="//@regions.0/@basic_blocks.4"/>
+  <edges id="232" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.3" sink_obj="//@regions.0/@basic_blocks.4"/>
+  <edges id="233" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.4" sink_obj="//@regions.0/@basic_blocks.0" is_back_edge="1"/>
+  <edges id="234" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.4/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.10"/>
+  <edges id="235" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="236" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.1/@node_objs.0"/>
+  <edges id="237" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.9"/>
+  <edges id="238" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.2"/>
+  <edges id="239" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.10"/>
+  <edges id="240" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.9"/>
+  <edges id="2147483647" source_obj="//@regions.0/@basic_blocks.3/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.3"/>
+  <edges id="2147483647" source_obj="//@regions.0/@basic_blocks.2/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.0" is_back_edge="1"/>
+  <blocks id="18" name="block_18" type="BlockType">
+    <controlOutputObjs>block_24</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="5" name="acc" originalName="acc" coreId="157" bitwidth="32" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="6" name="i" originalName="i" coreId="1814062958" bitwidth="5" opcode="alloca" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="14" name="x_read" lineNumber="49" originalName="x" fileName="fir.c" fileDirectory=".." coreId="1667592275" contextFuncName="fir" bitwidth="32" opcode="read" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fir.c" linenumber="49" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+      <dataInputObjs>x</dataInputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>phi</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="15" name="i_write_ln60" lineNumber="60" fileName="fir.c" fileDirectory=".." coreId="1814062958" contextFuncName="fir" opcode="store" m_display="0" m_delay="0.46" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fir.c" linenumber="60" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="16" name="acc_write_ln60" lineNumber="60" fileName="fir.c" fileDirectory=".." coreId="2832433472" contextFuncName="fir" opcode="store" m_display="0" m_delay="0.46" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fir.c" linenumber="60" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="17" name="br_ln60" lineNumber="60" fileName="fir.c" fileDirectory=".." coreId="1819113532" contextFuncName="fir" opcode="br" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fir.c" linenumber="60" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+      <controlInputObjs>block_24</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="fir.c">
+      <validLinenumbers>49</validLinenumbers>
+      <validLinenumbers>60</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="58" name="block_58" type="BlockType">
+    <controlInputObjs>block_24</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="55" name="acc_load_1" lineNumber="70" fileName="fir.c" fileDirectory=".." coreId="2832458656" contextFuncName="fir" bitwidth="32" opcode="load" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fir.c" linenumber="70" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>write</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="56" name="y_write_ln70" lineNumber="70" fileName="fir.c" fileDirectory=".." coreId="2832459440" contextFuncName="fir" opcode="write" m_display="0" m_topoIndex="20" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fir.c" linenumber="70" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+      <dataInputObjs>load</dataInputObjs>
+      <dataOutputObjs>y</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="57" name="_ln71" lineNumber="71" fileName="fir.c" fileDirectory=".." coreId="2832460632" contextFuncName="fir" opcode="ret" m_display="0" m_topoIndex="21" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fir.c" linenumber="71" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+    </node_objs>
+    <fileValidLineNumbers fileName="fir.c">
+      <validLinenumbers>70</validLinenumbers>
+      <validLinenumbers>71</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <regions anchor_node="-1" region_type="8" interval="2" typeName="Pipeline" iiViolation="Memory Dependency;mFailedII=1;mDependenceDistancedII=1;mLimitedResource=0;nodes=36__,39__;" id="202" pipe_depth="3" RegionName="Shift_Accum_Loop">
+    <basic_blocks id="24" name="block_24" type="BlockType">
+      <controlInputObjs>block_18</controlInputObjs>
+      <controlInputObjs>block_54</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>block_58</controlOutputObjs>
+      <controlOutputObjs>.split</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="19" name="i_1" originalName="i" coreId="2832434640" bitwidth="5" opcode="load" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>bitselect</dataOutputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="21" name="tmp" lineNumber="60" fileName="fir.c" fileDirectory=".." rtlName="tmp_reg_251" coreId="0" contextFuncName="fir" bitwidth="1" opcode="bitselect" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="60" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="23" name="br_ln60" lineNumber="60" fileName="fir.c" fileDirectory=".." coreId="2832437216" contextFuncName="fir" opcode="br" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="60" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>bitselect</dataInputObjs>
+        <controlInputObjs>.split</controlInputObjs>
+        <controlInputObjs>block_58</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="fir.c">
+        <validLinenumbers>60</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="30" name=".split" type="BlockType">
+      <controlInputObjs>block_24</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>block_41</controlOutputObjs>
+      <controlOutputObjs>block_38</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="25" name="i_cast1" rtlName="i_cast1_fu_182_p1" coreId="2832436408" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="22" m_clusterGroupNumber="-1">
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="empty_7" rtlName="empty_7_fu_161_p1" coreId="2820055152" bitwidth="4" opcode="trunc" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>phi</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="icmp_ln61" lineNumber="61" fileName="fir.c" fileDirectory=".." rtlName="icmp_ln61_fu_165_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="fir" bitwidth="1" opcode="icmp" m_display="0" m_delay="0.72" m_topoIndex="11" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="61" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="29" name="br_ln61" lineNumber="61" fileName="fir.c" fileDirectory=".." coreId="0" contextFuncName="fir" opcode="br" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="61" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>block_38</controlInputObjs>
+        <controlInputObjs>block_41</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="fir.c">
+        <validLinenumbers>61</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="38" name="block_38" type="BlockType">
+      <controlInputObjs>.split</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>block_54</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="add_ln65" lineNumber="65" fileName="fir.c" fileDirectory=".." rtlName="add_ln65_fu_171_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="fir" bitwidth="4" opcode="add" m_display="0" m_delay="0.8" m_topoIndex="13" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="65" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="zext_ln65" lineNumber="65" fileName="fir.c" fileDirectory=".." rtlName="zext_ln65_fu_177_p1" coreId="2832440144" contextFuncName="fir" bitwidth="64" opcode="zext" m_display="0" m_topoIndex="14" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="65" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="33" name="shift_reg_addr" lineNumber="65" fileName="fir.c" fileDirectory=".." coreId="2832441360" contextFuncName="fir" bitwidth="4" opcode="getelementptr" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="65" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="34" name="data" lineNumber="65" originalName="data" fileName="fir.c" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="83" contextFuncName="fir" bitwidth="32" opcode="load" nodeLatency="1" m_display="1" m_delay="0.73" m_isLCDNode="true" m_topoIndex="16" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="65" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>getelementptr</dataInputObjs>
+        <dataInputObjs>store</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>phi</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="35" name="shift_reg_addr_1" lineNumber="65" fileName="fir.c" fileDirectory=".." coreId="0" contextFuncName="fir" bitwidth="4" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="23" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="65" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="shift_reg_addr_1_write_ln65" lineNumber="65" fileName="fir.c" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="83" contextFuncName="fir" opcode="store" nodeLabel="1.0" m_display="1" m_delay="0.73" m_isLCDNode="true" m_topoIndex="24" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="65" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>getelementptr</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="37" name="br_ln0" coreId="2832444240" opcode="br" nodeLabel="1.0" m_display="0" m_delay="0.46" m_topoIndex="25" m_clusterGroupNumber="-1">
+        <controlInputObjs>block_54</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="fir.c">
+        <validLinenumbers>65</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="41" name="block_41" type="BlockType">
+      <controlInputObjs>.split</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>block_54</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="39" name="0_write_ln62" lineNumber="62" fileName="fir.c" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="83" contextFuncName="fir" opcode="store" m_display="1" m_delay="0.73" m_isLCDNode="true" m_isStartOfPath="true" m_topoIndex="17" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="62" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>store</dataInputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="40" name="br_ln64" lineNumber="64" fileName="fir.c" fileDirectory=".." coreId="2832419456" contextFuncName="fir" opcode="br" m_display="0" m_delay="0.46" m_topoIndex="18" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="64" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <controlInputObjs>block_54</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="fir.c">
+        <validLinenumbers>62</validLinenumbers>
+        <validLinenumbers>64</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="54" name="block_54" type="BlockType">
+      <controlInputObjs>block_38</controlInputObjs>
+      <controlInputObjs>block_41</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>block_24</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="42" name="idxprom6_pre_phi" coreId="0" bitwidth="4" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="26" m_clusterGroupNumber="-1">
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <controlInputObjs>block_41</controlInputObjs>
+        <controlInputObjs>block_38</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="43" name="data_1" originalName="data" coreId="0" bitwidth="32" opcode="phi" nodeLabel="2.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="-1">
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>mul</dataOutputObjs>
+        <controlInputObjs>block_41</controlInputObjs>
+        <controlInputObjs>block_38</controlInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="44" name="acc_load" lineNumber="68" fileName="fir.c" fileDirectory=".." coreId="2832450688" contextFuncName="fir" bitwidth="32" opcode="load" nodeLabel="2.0" m_display="0" m_topoIndex="33" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="68" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="45" name="zext_ln56" lineNumber="56" fileName="fir.c" fileDirectory=".." rtlName="zext_ln56_fu_186_p1" coreId="2832381552" contextFuncName="fir" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="27" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="56" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="46" name="c_addr" lineNumber="68" fileName="fir.c" fileDirectory=".." coreId="2832450384" contextFuncName="fir" bitwidth="4" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="28" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="68" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>c</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="47" name="c_load" lineNumber="68" fileName="fir.c" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="83" contextFuncName="fir" bitwidth="32" opcode="load" nodeLabel="1.0" nodeLatency="1" m_display="0" m_delay="0.73" m_topoIndex="29" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="68" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>getelementptr</dataInputObjs>
+        <dataOutputObjs>mul</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="48" name="mul_ln68" lineNumber="68" fileName="fir.c" fileDirectory=".." rtlName="mul_32s_32s_32_1_1_U1" coreName="Multiplier" implIndex="auto" control="no" opType="mul" coreId="3" contextFuncName="fir" bitwidth="32" opcode="mul" nodeLabel="2.0" m_display="0" m_delay="3.9" m_topoIndex="34" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="68" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="49" name="acc_1" lineNumber="68" originalName="acc" fileName="fir.c" fileDirectory=".." rtlName="acc_1_fu_210_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="fir" bitwidth="32" opcode="add" nodeLabel="2.0" m_display="0" m_delay="1.14" m_topoIndex="35" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="68" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>mul</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="50" name="add_ln60" lineNumber="60" fileName="fir.c" fileDirectory=".." rtlName="add_ln60_fu_191_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="fir" bitwidth="5" opcode="add" nodeLabel="1.0" m_display="0" m_delay="0.82" m_topoIndex="30" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="60" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="51" name="i_write_ln60" lineNumber="60" fileName="fir.c" fileDirectory=".." coreId="2832455440" contextFuncName="fir" opcode="store" nodeLabel="1.0" m_display="0" m_delay="0.46" m_topoIndex="31" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="60" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="52" name="acc_write_ln68" lineNumber="68" fileName="fir.c" fileDirectory=".." coreId="2832456432" contextFuncName="fir" opcode="store" nodeLabel="2.0" m_display="0" m_delay="0.46" m_topoIndex="36" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fir.c" linenumber="68" fileDirectory="/home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1" functionName="fir"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="53" name="br_ln0" coreId="2832457264" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="37" m_clusterGroupNumber="-1">
+        <controlInputObjs>block_24</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="fir.c">
+        <validLinenumbers>68</validLinenumbers>
+        <validLinenumbers>56</validLinenumbers>
+        <validLinenumbers>60</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <ScheduleInfo time="2"/>
+  <regnodes realName="acc_reg_225">
+    <nodeIds>5</nodeIds>
+  </regnodes>
+  <regnodes realName="x_read_reg_240">
+    <nodeIds>14</nodeIds>
+  </regnodes>
+  <regnodes realName="idxprom6_pre_phi_reg_120">
+    <nodeIds>42</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_reg_251">
+    <nodeIds>21</nodeIds>
+  </regnodes>
+  <regnodes realName="c_addr_reg_274">
+    <nodeIds>46</nodeIds>
+  </regnodes>
+  <regnodes realName="empty_7_reg_255">
+    <nodeIds>26</nodeIds>
+  </regnodes>
+  <regnodes realName="i_reg_233">
+    <nodeIds>6</nodeIds>
+  </regnodes>
+  <regnodes realName="i_1_reg_245">
+    <nodeIds>19</nodeIds>
+  </regnodes>
+  <regnodes realName="shift_reg_addr_reg_264">
+    <nodeIds>33</nodeIds>
+  </regnodes>
+  <regnodes realName="icmp_ln61_reg_260">
+    <nodeIds>28</nodeIds>
+  </regnodes>
+  <regnodes realName="data_reg_269">
+    <nodeIds>34</nodeIds>
+  </regnodes>
+  <regnodes realName="data_1_reg_131">
+    <nodeIds>43</nodeIds>
+  </regnodes>
+  <expressionNodes realName="i_fu_66">
+    <nodeIds>6</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln56_fu_186">
+    <nodeIds>45</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln65_fu_171">
+    <nodeIds>31</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln61_fu_165">
+    <nodeIds>28</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="data_1_phi_fu_134">
+    <nodeIds>43</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="acc_1_fu_210">
+    <nodeIds>49</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="c_addr_gep_fu_107">
+    <nodeIds>46</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="empty_7_fu_161">
+    <nodeIds>26</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_fu_153">
+    <nodeIds>21</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln65_fu_177">
+    <nodeIds>32</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="shift_reg_addr_gep_fu_83">
+    <nodeIds>33</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln60_fu_191">
+    <nodeIds>50</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mul_ln68_fu_204">
+    <nodeIds>48</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="shift_reg_addr_1_gep_fu_98">
+    <nodeIds>35</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="acc_fu_62">
+    <nodeIds>5</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_cast1_fu_182">
+    <nodeIds>25</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="idxprom6_pre_phi_phi_fu_124">
+    <nodeIds>42</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="store_ln60_store_fu_145">
+    <nodeIds>16</nodeIds>
+  </ioNodes>
+  <ioNodes realName="acc_load_1_load_fu_221">
+    <nodeIds>55</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln60_store_fu_196">
+    <nodeIds>51</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln60_store_fu_140">
+    <nodeIds>15</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln68_store_fu_216">
+    <nodeIds>52</nodeIds>
+  </ioNodes>
+  <ioNodes realName="write_ln70_write_fu_76">
+    <nodeIds>56</nodeIds>
+  </ioNodes>
+  <ioNodes realName="x_read_read_fu_70">
+    <nodeIds>14</nodeIds>
+  </ioNodes>
+  <ioNodes realName="acc_load_load_fu_201">
+    <nodeIds>44</nodeIds>
+  </ioNodes>
+  <ioNodes realName="i_1_load_fu_150">
+    <nodeIds>19</nodeIds>
+  </ioNodes>
+  <memoryPorts dataString="c">
+    <nodeIds>47</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="shift_reg">
+    <nodeIds>34</nodeIds>
+    <nodeIds>39</nodeIds>
+    <nodeIds>36</nodeIds>
+  </memoryPorts>
+  <ioPorts name="c(p0)">
+    <contents name="load">
+      <nodeIds>47</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="x">
+    <contents name="read">
+      <nodeIds>14</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="y">
+    <contents name="write">
+      <nodeIds>56</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="5" stage="1" latency="1"/>
+      <operations id="6" stage="1" latency="1"/>
+      <operations id="7" stage="1" latency="1"/>
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="34" stage="2" latency="2"/>
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="55" stage="1" latency="1"/>
+      <operations id="56" stage="1" latency="1"/>
+      <operations id="57" stage="1" latency="1"/>
+    </states>
+    <states id="2">
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="2"/>
+      <operations id="35" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="42" stage="1" latency="1"/>
+      <operations id="45" stage="1" latency="1"/>
+      <operations id="46" stage="1" latency="1"/>
+      <operations id="47" stage="2" latency="2"/>
+      <operations id="50" stage="1" latency="1"/>
+      <operations id="51" stage="1" latency="1"/>
+    </states>
+    <states id="3">
+      <operations id="43" stage="1" latency="1"/>
+      <operations id="44" stage="1" latency="1"/>
+      <operations id="47" stage="1" latency="2"/>
+      <operations id="48" stage="1" latency="1"/>
+      <operations id="49" stage="1" latency="1"/>
+      <operations id="52" stage="1" latency="1"/>
+      <operations id="53" stage="1" latency="1"/>
+    </states>
+    <transitions inState="2" outState="3">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="fir" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="24" mMaxLatency="24">
+      <subRegions>2</subRegions>
+      <subRegions>3</subRegions>
+      <subRegions>4</subRegions>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="2" mTag="Entry" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>18</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="3" mTag="Shift_Accum_Loop" mII="2" mDepth="3" mMinTripCount="11" mMaxTripCount="11" mMinLatency="22" mMaxLatency="22" mType="1">
+      <basicBlocks>24</basicBlocks>
+      <basicBlocks>30</basicBlocks>
+      <basicBlocks>38</basicBlocks>
+      <basicBlocks>41</basicBlocks>
+      <basicBlocks>54</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="4" mTag="Return" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>58</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

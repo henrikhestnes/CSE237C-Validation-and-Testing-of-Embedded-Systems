@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab1/fir_prj/solution1/./sim/autowrap/testbench/fir.c_pre.c.tb.c

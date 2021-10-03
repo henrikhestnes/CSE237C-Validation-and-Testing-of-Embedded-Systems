@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:09:46 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Fri Oct  1 21:36:49 2021
+# Process ID: 32036
+# Current directory: /home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab2/fir_prj/solution1/impl/ip
+# Command line: vivado -notrace -mode batch -source run_ippack.tcl
+# Log file: /home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab2/fir_prj/solution1/impl/ip/vivado.log
+# Journal file: /home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab2/fir_prj/solution1/impl/ip/vivado.jou
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

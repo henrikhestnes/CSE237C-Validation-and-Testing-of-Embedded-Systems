@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# xsim v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:09:46 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Fri Oct  1 21:36:32 2021
+# Process ID: 31853
+# Current directory: /home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab2/fir_prj/solution1/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/fir/xsim_script.tcl}
+# Log file: /home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab2/fir_prj/solution1/sim/verilog/xsim.log
+# Journal file: /home/henrikhestnes/Documents/CSE237C_Embedded/ug871-design-files/Introduction/lab2/fir_prj/solution1/sim/verilog/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/fir/xsim_script.tcl
+source fir.tcl
