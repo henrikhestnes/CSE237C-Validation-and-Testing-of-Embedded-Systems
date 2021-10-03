@@ -1,0 +1,9 @@
+Function:_Z3firPii ---> FID:1
+CFGHierUserfilelist:[/home/henrikhestnes/Documents/CSE237C_Embedded/project1/fir128/fir_test.cpp /home/henrikhestnes/Documents/CSE237C_Embedded/project1/fir128/out.gold.dat /home/henrikhestnes/Documents/CSE237C_Embedded/project1/fir128/input.dat /home/henrikhestnes/Documents/CSE237C_Embedded/project1/fir128/fir.cpp /home/henrikhestnes/Documents/CSE237C_Embedded/project1/fir128/fir.h]
+TopFunctionName:fir
+Writing 'callgraphDemangle.dot'...Function:_Z3firPii ---> FID:1
+
+Writing 'cfg_main_csim.dot'...Function:_Z3firPii ---> FID:1
+
+Function:_Z3firPii ---> FID:1
+Writing 'cfg_1_csim.dot'...
