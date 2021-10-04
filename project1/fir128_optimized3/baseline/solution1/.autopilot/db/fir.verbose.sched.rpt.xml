@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'fir'" level="0">
-<item name = "Date">Sun Oct  3 22:57:48 2021
+<item name = "Date">Sun Oct  3 23:27:16 2021
 </item>
 <item name = "Version">2021.1.1 (Build 3286242 on Wed Jul 28 13:09:46 MDT 2021)</item>
 <item name = "Project">baseline</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 6.912 ns, 2.70 ns</column>
+<column name="ap_clk">10.00 ns, 7.206 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">257, 641, 2.570 us, 6.410 us, 258, 642, no</column>
+<column name="">260, 260, 2.600 us, 2.600 us, 261, 261, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_23_1">256, 640, 2 ~ 5, -, -, 128, no</column>
+<column name="- VITIS_LOOP_23_1">258, 258, 5, 2, 1, 128, yes</column>
 </table>
 </item>
 </section>

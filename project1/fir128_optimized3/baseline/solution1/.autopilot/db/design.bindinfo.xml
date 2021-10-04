@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BindInfo>
-	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="mul9_fu_136_p2" SOURCE="fir.cpp:15" VARIABLE="mul9" MODULE="fir" LOOP="" DSP="0" BRAM="0" URAM="0"/>
-	<BindNode BINDTYPE="op" DISPLAY="bind_op icmp" ID="" IMPL="auto" LATENCY="0" OPTYPE="icmp" PRAGMA="" RTLNAME="icmp_ln25_fu_168_p2" SOURCE="fir.cpp:25" VARIABLE="icmp_ln25" MODULE="fir" LOOP="VITIS_LOOP_23_1" DSP="0" BRAM="0" URAM="0"/>
-	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="add_ln26_fu_178_p2" SOURCE="fir.cpp:26" VARIABLE="add_ln26" MODULE="fir" LOOP="VITIS_LOOP_23_1" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="mul9_fu_163_p2" SOURCE="fir.cpp:15" VARIABLE="mul9" MODULE="fir" LOOP="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op icmp" ID="" IMPL="auto" LATENCY="0" OPTYPE="icmp" PRAGMA="" RTLNAME="icmp_ln25_fu_199_p2" SOURCE="fir.cpp:25" VARIABLE="icmp_ln25" MODULE="fir" LOOP="VITIS_LOOP_23_1" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="add_ln26_fu_205_p2" SOURCE="fir.cpp:26" VARIABLE="add_ln26" MODULE="fir" LOOP="VITIS_LOOP_23_1" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op select" ID="" IMPL="auto_sel" LATENCY="0" OPTYPE="select" PRAGMA="" RTLNAME="shift_reg_1_d0" SOURCE="fir.cpp:26" VARIABLE="select_ln26" MODULE="fir" LOOP="VITIS_LOOP_23_1" DSP="0" BRAM="0" URAM="0"/>
 	<BindNode BINDTYPE="op" DISPLAY="bind_op mul" ID="" IMPL="auto" LATENCY="1" OPTYPE="mul" PRAGMA="" RTLNAME="mul_6s_32s_32_2_1_U1" SOURCE="fir.cpp:27" VARIABLE="mul_ln27" MODULE="fir" LOOP="VITIS_LOOP_23_1" DSP="1" BRAM="0" URAM="0"/>
-	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="acc_1_fu_193_p2" SOURCE="fir.cpp:21" VARIABLE="acc_1" MODULE="fir" LOOP="VITIS_LOOP_23_1" DSP="0" BRAM="0" URAM="0"/>
-	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="add_ln23_fu_199_p2" SOURCE="fir.cpp:23" VARIABLE="add_ln23" MODULE="fir" LOOP="VITIS_LOOP_23_1" DSP="0" BRAM="0" URAM="0"/>
-	<BindNode BINDTYPE="storage" DISPLAY="bind_storage ram_1p" ID="" IMPL="auto" LATENCY="1" OPTYPE="ram_1p" PRAGMA="" RTLNAME="shift_reg_U" SOURCE="" VARIABLE="shift_reg" MODULE="fir" LOOP="" DSP="0" BRAM="1" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="acc_1_fu_273_p2" SOURCE="fir.cpp:21" VARIABLE="acc_1" MODULE="fir" LOOP="VITIS_LOOP_23_1" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="add_ln23_fu_241_p2" SOURCE="fir.cpp:23" VARIABLE="add_ln23" MODULE="fir" LOOP="VITIS_LOOP_23_1" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="storage" DISPLAY="bind_storage ram_1p" ID="" IMPL="auto" LATENCY="1" OPTYPE="ram_1p" PRAGMA="" RTLNAME="shift_reg_0_U" SOURCE="" VARIABLE="shift_reg_0" MODULE="fir" LOOP="" DSP="0" BRAM="1" URAM="0"/>
+	<BindNode BINDTYPE="storage" DISPLAY="bind_storage ram_1p" ID="" IMPL="auto" LATENCY="1" OPTYPE="ram_1p" PRAGMA="" RTLNAME="shift_reg_1_U" SOURCE="" VARIABLE="shift_reg_1" MODULE="fir" LOOP="" DSP="0" BRAM="1" URAM="0"/>
 	<BindNode BINDTYPE="storage" DISPLAY="bind_storage rom_1p" ID="" IMPL="auto" LATENCY="1" OPTYPE="rom_1p" PRAGMA="" RTLNAME="fir_int_int_c_U" SOURCE="" VARIABLE="fir_int_int_c" MODULE="fir" LOOP="" DSP="0" BRAM="1" URAM="0"/>
 </BindInfo>

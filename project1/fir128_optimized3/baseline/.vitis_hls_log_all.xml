@@ -12,7 +12,8 @@
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [RTGEN 206-101] Global array 'fir_int_int_c' will not be exposed as RTL port." projectName="baseline" solutionName="solution1" date="2021-10-03T22:57:49.099-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global array 'fir_int_int_c' will not be exposed as RTL port." projectName="baseline" solutionName="solution1" date="2021-10-03T23:27:16.792-0700" type="Warning"/>
+        <logs message="WARNING: [HLS 200-880] The II Violation in module 'fir' (loop 'VITIS_LOOP_23_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_1_write_ln26', fir.cpp:26) of variable 'select_ln26', fir.cpp:26 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:26) on array 'shift_reg_0'.&#xA;Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.1;t=hls+guidance;d=200-880.html" projectName="baseline" solutionName="solution1" date="2021-10-03T23:27:16.617-0700" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>
