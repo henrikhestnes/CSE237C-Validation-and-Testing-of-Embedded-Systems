@@ -1,0 +1,10 @@
+<VitisHLS:BurstInfo>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="fir.cpp:30:18" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr inbounds ([128 x i8], [128 x i8]* @_ZZ3firPiiE9shift_reg, i64 0, i64 0)" ID="bb2.store.3" VarName="_ZZ3firPiiE9shift_reg"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="fir.cpp:33:8" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by 1" ID="bb2.store.16" VarName="1"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="fir.cpp:27:15" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr" ID="bb1.load.14" VarName="_ZZ3firPiiE9shift_reg"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="fir.cpp:27:15" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr" ID="bb1.store.15" VarName="_ZZ3firPiiE9shift_reg"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="fir.cpp:27:15" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr" ID="bb1.load.14" VarName="_ZZ3firPiiE9shift_reg"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="fir.cpp:27:15" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr" ID="bb1.store.15" VarName="_ZZ3firPiiE9shift_reg"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="/tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:225:18" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr" ID="bb1.load.19" VarName="c"/>
+</VitisHLS:BurstInfo>
+
