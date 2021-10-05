@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BindInfo>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op icmp" ID="" IMPL="auto" LATENCY="0" OPTYPE="icmp" PRAGMA="" RTLNAME="icmp_ln27_fu_107_p2" SOURCE="fir.cpp:27" VARIABLE="icmp_ln27" MODULE="fir_Pipeline_VITIS_LOOP_27_1" LOOP="VITIS_LOOP_27_1" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="add_ln27_fu_118_p2" SOURCE="fir.cpp:27" VARIABLE="add_ln27" MODULE="fir_Pipeline_VITIS_LOOP_27_1" LOOP="VITIS_LOOP_27_1" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op mul" ID="" IMPL="auto" LATENCY="1" OPTYPE="mul" PRAGMA="" RTLNAME="mul_5s_32s_32_2_1_U1" SOURCE="fir.cpp:30" VARIABLE="mul_ln30" MODULE="fir_Pipeline_VITIS_LOOP_27_1" LOOP="VITIS_LOOP_27_1" DSP="1" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="acc_1_fu_145_p2" SOURCE="fir.cpp:30" VARIABLE="acc_1" MODULE="fir_Pipeline_VITIS_LOOP_27_1" LOOP="VITIS_LOOP_27_1" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="storage" DISPLAY="bind_storage rom_np" ID="" IMPL="bram" LATENCY="1" OPTYPE="rom_np" PRAGMA="pragma" RTLNAME="c_U" SOURCE=":0" VARIABLE="c" MODULE="fir_Pipeline_VITIS_LOOP_27_1" LOOP="" DSP="0" BRAM="1" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="tadder" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="add_ln33_fu_98_p2" SOURCE="fir.cpp:33" VARIABLE="add_ln33" MODULE="fir" LOOP="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="tadder" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="y" SOURCE="fir.cpp:33" VARIABLE="acc" MODULE="fir" LOOP="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="storage" DISPLAY="bind_storage ram_2p" ID="" IMPL="bram" LATENCY="1" OPTYPE="ram_2p" PRAGMA="pragma" RTLNAME="shift_reg_U" SOURCE="fir.cpp:23" VARIABLE="shift_reg" MODULE="fir" LOOP="" DSP="0" BRAM="1" URAM="0"/>
+</BindInfo>

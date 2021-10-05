@@ -1,0 +1,1251 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name fir fir 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.671 MB.
+INFO: [HLS 200-10] Analyzing design file 'fir.cpp' ... 
+WARNING: [HLS 207-5301] unused parameter 'print': /tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 4.82 seconds. CPU system time: 0.41 seconds. Elapsed time: 4.46 seconds; current allocated memory: 252.982 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 214-270] Inferring cyclic partitioning for array 'fir(int*, int)::shift_reg' on dimension 1 with factor 9 (fir.cpp:22:0)
+INFO: [HLS 214-270] Inferring cyclic partitioning for array 'c' on dimension 1 with factor 4
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.15 seconds. CPU system time: 0.35 seconds. Elapsed time: 4.5 seconds; current allocated memory: 255.005 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.006 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 261.915 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 270.604 MB.
+INFO: [XFORM 203-501] Unrolling loop 'VITIS_LOOP_25_1' in function 'fir' partially with a factor of 8.
+INFO: [XFORM 203-101] Partitioning array 'shift_reg'  in dimension 1 with a cyclic factor 9.
+INFO: [XFORM 203-101] Partitioning array 'c'  in dimension 1 with a cyclic factor 4.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:28:15) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:28:15) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:28:15) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:28:15) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:28:15) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:28:15) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:28:15) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.33 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.35 seconds; current allocated memory: 302.856 MB.
+INFO: [HLS 200-472] Inferring partial write operation for 'shift_reg.0' (fir.cpp:31:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'shift_reg.0' (fir.cpp:28:15)
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.25 seconds. CPU system time: 0 seconds. Elapsed time: 0.26 seconds; current allocated memory: 316.912 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fir' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir_Pipeline_VITIS_LOOP_25_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_25_1'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_VITIS_LOOP_25_1' (loop 'VITIS_LOOP_25_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_1_write_ln28', fir.cpp:28) of variable 'phi_ln28', fir.cpp:28 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:28) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_VITIS_LOOP_25_1' (loop 'VITIS_LOOP_25_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_3_write_ln28', fir.cpp:28) of variable 'select_ln28_7', fir.cpp:28 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:28) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_VITIS_LOOP_25_1' (loop 'VITIS_LOOP_25_1'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_3_write_ln28', fir.cpp:28) of variable 'select_ln28_7', fir.cpp:28 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:28) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_VITIS_LOOP_25_1' (loop 'VITIS_LOOP_25_1'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_5_write_ln28', fir.cpp:28) of variable 'select_ln28_15', fir.cpp:28 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:28) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_VITIS_LOOP_25_1' (loop 'VITIS_LOOP_25_1'): Unable to enforce a carried dependence constraint (II = 11, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_11_write_ln28', fir.cpp:28) of variable 'select_ln28_39', fir.cpp:28 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:28) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_VITIS_LOOP_25_1' (loop 'VITIS_LOOP_25_1'): Unable to enforce a carried dependence constraint (II = 15, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_15_write_ln28', fir.cpp:28) of variable 'select_ln28_55', fir.cpp:28 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:28) on array 'shift_reg_0'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 16, Depth = 61, loop 'VITIS_LOOP_25_1'
+WARNING: [HLS 200-871] Estimated clock period (7.436ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'fir_Pipeline_VITIS_LOOP_25_1' consists of the following:	'load' operation ('shift_reg_8_load_1', fir.cpp:28) on array 'shift_reg_8' [171]  (2.32 ns)
+	'select' operation ('select_ln28', fir.cpp:28) [181]  (0 ns)
+	'select' operation ('select_ln28_1', fir.cpp:28) [183]  (0.698 ns)
+	'select' operation ('select_ln28_2', fir.cpp:28) [185]  (0 ns)
+	'select' operation ('select_ln28_3', fir.cpp:28) [187]  (0.698 ns)
+	'select' operation ('select_ln28_4', fir.cpp:28) [189]  (0 ns)
+	'select' operation ('select_ln28_5', fir.cpp:28) [191]  (0.698 ns)
+	'select' operation ('select_ln28_6', fir.cpp:28) [193]  (0 ns)
+	'select' operation ('select_ln28_7', fir.cpp:28) [195]  (0.698 ns)
+	'store' operation ('shift_reg_7_addr_3_write_ln28', fir.cpp:28) of variable 'select_ln28_7', fir.cpp:28 on array 'shift_reg_7' [213]  (2.32 ns)
+
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name fir fir 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.671 MB.
+INFO: [HLS 200-10] Analyzing design file 'fir.cpp' ... 
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:23:9
+WARNING: [HLS 207-5301] unused parameter 'print': /tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:23:9
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 4.94 seconds. CPU system time: 0.41 seconds. Elapsed time: 4.62 seconds; current allocated memory: 253.033 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 214-270] Inferring cyclic partitioning for array 'fir(int*, int)::shift_reg' on dimension 1 with factor 9 (fir.cpp:22:0)
+INFO: [HLS 214-270] Inferring cyclic partitioning for array 'c' on dimension 1 with factor 4
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.15 seconds. CPU system time: 0.33 seconds. Elapsed time: 4.49 seconds; current allocated memory: 255.041 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.042 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 261.981 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 270.660 MB.
+INFO: [XFORM 203-501] Unrolling loop 'TDL' in function 'fir' partially with a factor of 8.
+INFO: [XFORM 203-501] Unrolling loop 'MAC' (fir.cpp:33) in function 'fir' partially with a factor of 8.
+INFO: [XFORM 203-101] Partitioning array 'shift_reg'  in dimension 1 with a cyclic factor 9.
+INFO: [XFORM 203-101] Partitioning array 'c'  in dimension 1 with a cyclic factor 4.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:30:15) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:30:15) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:30:15) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:30:15) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:30:15) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:30:15) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:30:15) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (fir.cpp:36:9) to (fir.cpp:33:5) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (fir.cpp:36:9) to (fir.cpp:33:5) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (fir.cpp:36:9) to (fir.cpp:33:5) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (fir.cpp:36:9) to (fir.cpp:33:5) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (fir.cpp:36:9) to (fir.cpp:33:5) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (fir.cpp:36:9) to (fir.cpp:33:5) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (fir.cpp:36:9) in function 'fir'... converting 11 basic blocks.
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.38 seconds. CPU system time: 0 seconds. Elapsed time: 0.38 seconds; current allocated memory: 303.402 MB.
+INFO: [HLS 200-472] Inferring partial write operation for 'shift_reg.0' (fir.cpp:40:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'shift_reg.0' (fir.cpp:30:15)
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.32 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.33 seconds; current allocated memory: 328.729 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fir' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir_Pipeline_TDL' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'TDL'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_1_write_ln30', fir.cpp:30) of variable 'phi_ln30', fir.cpp:30 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:30) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_3_write_ln30', fir.cpp:30) of variable 'select_ln30_7', fir.cpp:30 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:30) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_3_write_ln30', fir.cpp:30) of variable 'select_ln30_7', fir.cpp:30 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:30) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_5_write_ln30', fir.cpp:30) of variable 'select_ln30_15', fir.cpp:30 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:30) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 11, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_11_write_ln30', fir.cpp:30) of variable 'select_ln30_39', fir.cpp:30 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:30) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 15, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_15_write_ln30', fir.cpp:30) of variable 'select_ln30_55', fir.cpp:30 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:30) on array 'shift_reg_0'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 16, Depth = 52, loop 'TDL'
+WARNING: [HLS 200-871] Estimated clock period (9.3ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'fir_Pipeline_TDL' consists of the following:	'load' operation ('shift_reg_8_load_1', fir.cpp:30) on array 'shift_reg_8' [144]  (3.25 ns)
+	'select' operation ('select_ln30', fir.cpp:30) [154]  (0 ns)
+	'select' operation ('select_ln30_1', fir.cpp:30) [156]  (0.698 ns)
+	'select' operation ('select_ln30_2', fir.cpp:30) [158]  (0 ns)
+	'select' operation ('select_ln30_3', fir.cpp:30) [160]  (0.698 ns)
+	'select' operation ('select_ln30_4', fir.cpp:30) [162]  (0 ns)
+	'select' operation ('select_ln30_5', fir.cpp:30) [164]  (0.698 ns)
+	'select' operation ('select_ln30_6', fir.cpp:30) [166]  (0 ns)
+	'select' operation ('select_ln30_7', fir.cpp:30) [168]  (0.698 ns)
+	'store' operation ('shift_reg_7_addr_3_write_ln30', fir.cpp:30) of variable 'select_ln30_7', fir.cpp:30 on array 'shift_reg_7' [186]  (3.25 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.55 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.57 seconds; current allocated memory: 336.939 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.95 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.96 seconds; current allocated memory: 348.882 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir_Pipeline_MAC' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'MAC'.
+WARNING: [HLS 200-885] The II Violation in module 'fir_Pipeline_MAC' (loop 'MAC'): Unable to schedule 'load' operation ('shift_reg_8_load_9', fir.cpp:36) on array 'shift_reg_8' due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array 'shift_reg_8'.
+WARNING: [HLS 200-885] The II Violation in module 'fir_Pipeline_MAC' (loop 'MAC'): Unable to schedule 'load' operation ('shift_reg_8_load_10', fir.cpp:36) on array 'shift_reg_8' due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array 'shift_reg_8'.
+WARNING: [HLS 200-885] The II Violation in module 'fir_Pipeline_MAC' (loop 'MAC'): Unable to schedule 'load' operation ('shift_reg_8_load_12', fir.cpp:36) on array 'shift_reg_8' due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array 'shift_reg_8'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 4, Depth = 17, loop 'MAC'
+WARNING: [HLS 200-871] Estimated clock period (16.06ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'fir_Pipeline_MAC' consists of the following:	'urem' operation ('urem_ln36_1', fir.cpp:36) [115]  (4.21 ns)
+	'icmp' operation ('icmp_ln36_6', fir.cpp:36) [145]  (1.3 ns)
+	'or' operation ('or_ln36', fir.cpp:36) [148]  (0.978 ns)
+	'or' operation ('or_ln36_4', fir.cpp:36) [156]  (0.978 ns)
+	'select' operation ('select_ln36_6', fir.cpp:36) [159]  (0.698 ns)
+	'select' operation ('select_ln36_7', fir.cpp:36) [161]  (0.978 ns)
+	'mul' operation ('mul_ln36_1', fir.cpp:36) [181]  (6.91 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.86 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.89 seconds; current allocated memory: 351.248 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.69 seconds. CPU system time: 0 seconds. Elapsed time: 0.71 seconds; current allocated memory: 354.615 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.05 seconds; current allocated memory: 354.755 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.45 seconds. CPU system time: 0 seconds. Elapsed time: 0.46 seconds; current allocated memory: 354.998 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir_Pipeline_TDL' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'fir_Pipeline_TDL' pipeline 'TDL' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_33ns_35ns_67_2_1': 8 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_7ns_9ns_15_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_33s_5ns_4_37_1': 8 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_7ns_5ns_4_11_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fir_Pipeline_TDL'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.32 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.34 seconds; current allocated memory: 359.589 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir_Pipeline_MAC' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_5s_32_2_1': 8 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_7ns_9ns_15_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_7ns_5ns_4_11_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fir_Pipeline_MAC'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.07 seconds. CPU system time: 0.02 seconds. Elapsed time: 2.09 seconds; current allocated memory: 376.005 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/y' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/x' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fir' to 'ap_ctrl_hs'.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name fir fir 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 251.671 MB.
+INFO: [HLS 200-10] Analyzing design file 'fir.cpp' ... 
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:23:9
+WARNING: [HLS 207-5301] unused parameter 'print': /tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:23:9
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 4.68 seconds. CPU system time: 0.38 seconds. Elapsed time: 4.32 seconds; current allocated memory: 253.033 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 214-270] Inferring cyclic partitioning for array 'fir(int*, int)::shift_reg' on dimension 1 with factor 17 (fir.cpp:22:0)
+INFO: [HLS 214-270] Inferring cyclic partitioning for array 'c' on dimension 1 with factor 8
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.19 seconds. CPU system time: 0.31 seconds. Elapsed time: 4.49 seconds; current allocated memory: 255.041 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.042 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 261.980 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 270.658 MB.
+INFO: [XFORM 203-501] Unrolling loop 'TDL' in function 'fir' partially with a factor of 16.
+INFO: [XFORM 203-501] Unrolling loop 'MAC' (fir.cpp:33) in function 'fir' partially with a factor of 16.
+INFO: [XFORM 203-101] Partitioning array 'shift_reg'  in dimension 1 with a cyclic factor 17.
+INFO: [XFORM 203-101] Partitioning array 'c'  in dimension 1 with a cyclic factor 8.
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.8[16 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.89 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.91 seconds; current allocated memory: 310.717 MB.
+INFO: [HLS 200-472] Inferring partial write operation for 'shift_reg.0' (fir.cpp:40:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'shift_reg.0' (fir.cpp:30:15)
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 3.51 seconds. CPU system time: 0.02 seconds. Elapsed time: 3.54 seconds; current allocated memory: 406.361 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fir' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir_Pipeline_TDL' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'TDL'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_1_write_ln30', fir.cpp:30) of variable 'phi_ln30', fir.cpp:30 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:30) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_3_write_ln30', fir.cpp:30) of variable 'phi_ln30_1', fir.cpp:30 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:30) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_3_write_ln30', fir.cpp:30) of variable 'phi_ln30_1', fir.cpp:30 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:30) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_5_write_ln30', fir.cpp:30) of variable 'phi_ln30_2', fir.cpp:30 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:30) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 19, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_19_write_ln30', fir.cpp:30) of variable 'phi_ln30_9', fir.cpp:30 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:30) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 27, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_27_write_ln30', fir.cpp:30) of variable 'phi_ln30_13', fir.cpp:30 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:30) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 31, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_31_write_ln30', fir.cpp:30) of variable 'phi_ln30_15', fir.cpp:30 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:30) on array 'shift_reg_0'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 32, Depth = 68, loop 'TDL'
+WARNING: [HLS 200-871] Estimated clock period (9.26ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'fir_Pipeline_TDL' consists of the following:	'load' operation ('shift_reg_15_load', fir.cpp:30) on array 'shift_reg_15' [74]  (3.25 ns)
+	multiplexor before 'phi' operation ('phi_ln30', fir.cpp:30) with incoming values : ('shift_reg_15_load', fir.cpp:30) ('shift_reg_14_load', fir.cpp:30) ('shift_reg_13_load', fir.cpp:30) ('shift_reg_12_load', fir.cpp:30) ('shift_reg_11_load', fir.cpp:30) ('shift_reg_10_load', fir.cpp:30) ('shift_reg_9_load', fir.cpp:30) ('shift_reg_8_load', fir.cpp:30) ('shift_reg_7_load', fir.cpp:30) ('shift_reg_6_load', fir.cpp:30) ('shift_reg_5_load', fir.cpp:30) ('shift_reg_4_load', fir.cpp:30) ('shift_reg_3_load', fir.cpp:30) ('shift_reg_2_load', fir.cpp:30) ('shift_reg_1_load', fir.cpp:30) ('shift_reg_0_load', fir.cpp:30) ('shift_reg_16_load', fir.cpp:30) [125]  (2.75 ns)
+	'phi' operation ('phi_ln30', fir.cpp:30) with incoming values : ('shift_reg_15_load', fir.cpp:30) ('shift_reg_14_load', fir.cpp:30) ('shift_reg_13_load', fir.cpp:30) ('shift_reg_12_load', fir.cpp:30) ('shift_reg_11_load', fir.cpp:30) ('shift_reg_10_load', fir.cpp:30) ('shift_reg_9_load', fir.cpp:30) ('shift_reg_8_load', fir.cpp:30) ('shift_reg_7_load', fir.cpp:30) ('shift_reg_6_load', fir.cpp:30) ('shift_reg_5_load', fir.cpp:30) ('shift_reg_4_load', fir.cpp:30) ('shift_reg_3_load', fir.cpp:30) ('shift_reg_2_load', fir.cpp:30) ('shift_reg_1_load', fir.cpp:30) ('shift_reg_0_load', fir.cpp:30) ('shift_reg_16_load', fir.cpp:30) [125]  (0 ns)
+	'store' operation ('shift_reg_15_addr_1_write_ln30', fir.cpp:30) of variable 'phi_ln30', fir.cpp:30 on array 'shift_reg_15' [151]  (3.25 ns)
+
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name fir fir 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.671 MB.
+INFO: [HLS 200-10] Analyzing design file 'fir.cpp' ... 
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:20:9
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:21:9
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:25:9
+WARNING: [HLS 207-5301] unused parameter 'print': /tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:20:9
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:21:9
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:25:9
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 4.75 seconds. CPU system time: 0.34 seconds. Elapsed time: 4.38 seconds; current allocated memory: 253.067 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+WARNING: [HLS 214-199] Ignoring dependence pragma on local scalar variable 'acc'. (fir.cpp:36:40)
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.13 seconds. CPU system time: 0.3 seconds. Elapsed time: 4.42 seconds; current allocated memory: 255.060 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.061 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 262.015 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 270.679 MB.
+INFO: [XFORM 203-501] Unrolling loop 'TDL' in function 'fir' partially with a factor of 16.
+INFO: [XFORM 203-501] Unrolling loop 'MAC' (fir.cpp:36) in function 'fir' partially with a factor of 16.
+INFO: [XFORM 203-101] Partitioning array 'c'  in dimension 1 with a cyclic factor 4.
+INFO: [XFORM 203-101] Partitioning array 'shift_reg'  in dimension 1 with a cyclic factor 8.
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.46 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.47 seconds; current allocated memory: 303.967 MB.
+INFO: [HLS 200-472] Inferring partial write operation for 'shift_reg.0' (fir.cpp:44:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'shift_reg.0' (fir.cpp:33:15)
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.54 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.55 seconds; current allocated memory: 331.056 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fir' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir_Pipeline_TDL' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'TDL'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_1_write_ln33', fir.cpp:33) of variable 'tmp_2', fir.cpp:33 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:33) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_1_write_ln33', fir.cpp:33) of variable 'tmp_2', fir.cpp:33 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:33) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_1_write_ln33', fir.cpp:33) of variable 'tmp_2', fir.cpp:33 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:33) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_2_write_ln33', fir.cpp:33) of variable 'tmp_3', fir.cpp:33 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:33) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 19, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_9_write_ln33', fir.cpp:33) of variable 'tmp_s', fir.cpp:33 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:33) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 27, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_13_write_ln33', fir.cpp:33) of variable 'tmp_13', fir.cpp:33 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:33) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 31, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_15_write_ln33', fir.cpp:33) of variable 'tmp_15', fir.cpp:33 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:33) on array 'shift_reg_0'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 32, Depth = 32, loop 'TDL'
+WARNING: [HLS 200-871] Estimated clock period (8.8118ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'fir_Pipeline_TDL' consists of the following:	'load' operation ('shift_reg_0_load', fir.cpp:33) on array 'shift_reg_0' [35]  (3.25 ns)
+	'mux' operation ('tmp_1', fir.cpp:33) [50]  (2.3 ns)
+	'store' operation ('shift_reg_5_addr_write_ln33', fir.cpp:33) of variable 'tmp_1', fir.cpp:33 on array 'shift_reg_5' [66]  (3.25 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2.55 seconds. CPU system time: 0.04 seconds. Elapsed time: 2.59 seconds; current allocated memory: 337.635 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.42 seconds. CPU system time: 0 seconds. Elapsed time: 0.43 seconds; current allocated memory: 340.394 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir_Pipeline_MAC' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'MAC'.
+WARNING: [HLS 200-882] User specified resource constraint cannot be honored The memory core ROM_2P_BRAM has insufficient ports to support accesses to array 'c_3' (II = 1)..
+WARNING: [HLS 200-885] The II Violation in module 'fir_Pipeline_MAC' (loop 'MAC'): Unable to schedule 'load' operation ('shift_reg_0_load_18', fir.cpp:40) on array 'shift_reg_0' due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array 'shift_reg_0'.
+WARNING: [HLS 200-885] The II Violation in module 'fir_Pipeline_MAC' (loop 'MAC'): Unable to schedule 'load' operation ('shift_reg_0_load_20', fir.cpp:40) on array 'shift_reg_0' due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array 'shift_reg_0'.
+WARNING: [HLS 200-885] The II Violation in module 'fir_Pipeline_MAC' (loop 'MAC'): Unable to schedule 'load' operation ('shift_reg_0_load_22', fir.cpp:40) on array 'shift_reg_0' due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array 'shift_reg_0'.
+WARNING: [HLS 200-885] The II Violation in module 'fir_Pipeline_MAC' (loop 'MAC'): Unable to schedule 'load' operation ('shift_reg_0_load_28', fir.cpp:40) on array 'shift_reg_0' due to limited memory ports (II = 7). Please consider using a memory core with more ports or partitioning the array 'shift_reg_0'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 8, Depth = 10, loop 'MAC'
+WARNING: [HLS 200-871] Estimated clock period (13.604ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'fir_Pipeline_MAC' consists of the following:	'mul' operation ('mul_ln40_14', fir.cpp:40) [722]  (6.91 ns)
+	'add' operation ('add_ln40_14', fir.cpp:40) [723]  (2.55 ns)
+	'add' operation ('add_ln40_15', fir.cpp:40) [766]  (2.55 ns)
+	'store' operation ('acc_1_0_write_ln40', fir.cpp:40) of variable 'add_ln40_15', fir.cpp:40 on local variable 'acc_1_0' [768]  (1.59 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2.9 seconds. CPU system time: 0.02 seconds. Elapsed time: 2.93 seconds; current allocated memory: 343.446 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.53 seconds. CPU system time: 0 seconds. Elapsed time: 0.54 seconds; current allocated memory: 347.325 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.66 seconds. CPU system time: 0 seconds. Elapsed time: 0.66 seconds; current allocated memory: 347.514 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.2 seconds. CPU system time: 0 seconds. Elapsed time: 0.21 seconds; current allocated memory: 347.806 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir_Pipeline_TDL' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mux_833_32_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fir_Pipeline_TDL'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.76 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.76 seconds; current allocated memory: 351.926 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir_Pipeline_MAC' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_5s_32_2_1': 16 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mux_87_32_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fir_Pipeline_MAC'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.58 seconds. CPU system time: 0.03 seconds. Elapsed time: 1.61 seconds; current allocated memory: 370.624 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/y' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/x' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fir' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Generating core module 'mux_164_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fir'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.57 seconds. CPU system time: 0.04 seconds. Elapsed time: 1.6 seconds; current allocated memory: 384.812 MB.
+INFO: [RTMG 210-279] Implementing memory 'fir_fir_Pipeline_MAC_c_3' using block ROMs.
+INFO: [RTMG 210-279] Implementing memory 'fir_fir_Pipeline_MAC_c_0' using block ROMs.
+INFO: [RTMG 210-279] Implementing memory 'fir_fir_Pipeline_MAC_c_1' using block ROMs.
+INFO: [RTMG 210-279] Implementing memory 'fir_fir_Pipeline_MAC_c_2' using block ROMs.
+INFO: [RTMG 210-278] Implementing memory 'fir_shift_reg_0_ram (RAM_2P_BRAM)' using block RAMs with power-on initialization.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1.89 seconds. CPU system time: 0.02 seconds. Elapsed time: 1.92 seconds; current allocated memory: 387.984 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name fir fir 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.671 MB.
+INFO: [HLS 200-10] Analyzing design file 'fir.cpp' ... 
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:20:9
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:21:9
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:25:9
+WARNING: [HLS 207-5301] unused parameter 'print': /tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:20:9
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:21:9
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:25:9
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 4.74 seconds. CPU system time: 0.41 seconds. Elapsed time: 4.38 seconds; current allocated memory: 253.067 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+WARNING: [HLS 214-199] Ignoring dependence pragma on local scalar variable 'acc'. (fir.cpp:36:40)
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.19 seconds. CPU system time: 0.31 seconds. Elapsed time: 4.49 seconds; current allocated memory: 255.060 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.061 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 262.016 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 270.680 MB.
+INFO: [XFORM 203-501] Unrolling loop 'TDL' in function 'fir' partially with a factor of 4.
+INFO: [XFORM 203-501] Unrolling loop 'MAC' (fir.cpp:36) in function 'fir' partially with a factor of 4.
+INFO: [XFORM 203-101] Partitioning array 'c'  in dimension 1 with a cyclic factor 4.
+INFO: [XFORM 203-101] Partitioning array 'shift_reg'  in dimension 1 with a cyclic factor 8.
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [XFORM 203-603] Inlining function 'aesl_mux_load.4[32 x i5]P0A.i7.i64' into 'fir' ().
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.21 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.22 seconds; current allocated memory: 301.998 MB.
+INFO: [HLS 200-472] Inferring partial write operation for 'shift_reg.0' (fir.cpp:44:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'shift_reg.0' (fir.cpp:33:15)
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.15 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.16 seconds; current allocated memory: 320.680 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fir' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir_Pipeline_TDL' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'TDL'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_1_write_ln33', fir.cpp:33) of variable 'tmp_2', fir.cpp:33 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:33) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_1_write_ln33', fir.cpp:33) of variable 'tmp_2', fir.cpp:33 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:33) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_1_write_ln33', fir.cpp:33) of variable 'tmp_2', fir.cpp:33 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:33) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_2_write_ln33', fir.cpp:33) of variable 'tmp_3', fir.cpp:33 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:33) on array 'shift_reg_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to enforce a carried dependence constraint (II = 7, distance = 1, offset = 1) between 'store' operation ('shift_reg_0_addr_3_write_ln33', fir.cpp:33) of variable 'tmp_4', fir.cpp:33 on array 'shift_reg_0' and 'load' operation ('shift_reg_0_load', fir.cpp:33) on array 'shift_reg_0'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 8, Depth = 8, loop 'TDL'
+WARNING: [HLS 200-871] Estimated clock period (8.8118ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'fir_Pipeline_TDL' consists of the following:	'load' operation ('shift_reg_0_load', fir.cpp:33) on array 'shift_reg_0' [35]  (3.25 ns)
+	'mux' operation ('tmp_1', fir.cpp:33) [50]  (2.3 ns)
+	'store' operation ('shift_reg_3_addr_write_ln33', fir.cpp:33) of variable 'tmp_1', fir.cpp:33 on array 'shift_reg_3' [72]  (3.25 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.31 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.32 seconds; current allocated memory: 321.816 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 322.649 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42]==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name fir fir 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.671 MB.
+INFO: [HLS 200-10] Analyzing design file 'fir.cpp' ... 
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:23:9
+WARNING: [HLS 207-5301] unused parameter 'print': /tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:23:9
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 4.72 seconds. CPU system time: 0.38 seconds. Elapsed time: 4.37 seconds; current allocated memory: 253.033 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+WARNING: [HLS 214-199] Ignoring dependence pragma on local scalar variable 'acc'. (fir.cpp:34:40)
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 214-270] Inferring cyclic partitioning for array 'c' on dimension 1 with factor 2
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.17 seconds. CPU system time: 0.26 seconds. Elapsed time: 4.44 seconds; current allocated memory: 255.041 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.042 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 261.980 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 270.655 MB.
+INFO: [XFORM 203-501] Unrolling loop 'TDL' in function 'fir' partially with a factor of 4.
+INFO: [XFORM 203-501] Unrolling loop 'MAC' (fir.cpp:34) in function 'fir' partially with a factor of 4.
+WARNING: [HLS 200-915] Ignore complete array partition directive on 'shift_reg'  in dimension 1: conflict with resource constraint assignment.
+INFO: [XFORM 203-101] Partitioning array 'c'  in dimension 1 with a cyclic factor 2.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (fir.cpp:34:20) to (fir.cpp:34:5) in function 'fir'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:34:5) in function 'fir'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (fir.cpp:34:5) in function 'fir'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock in function 'fir'... converting 4 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.18 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.19 seconds; current allocated memory: 301.437 MB.
+INFO: [HLS 200-472] Inferring partial write operation for 'shift_reg' (fir.cpp:42:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'shift_reg' (fir.cpp:31:15)
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.12 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.12 seconds; current allocated memory: 318.088 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fir' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir_Pipeline_TDL' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'TDL'.
+WARNING: [HLS 200-885] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to schedule 'load' operation ('shift_reg_load_1', fir.cpp:31) on array 'shift_reg' due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array 'shift_reg'.
+WARNING: [HLS 200-885] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to schedule 'load' operation ('shift_reg_load_3', fir.cpp:31) on array 'shift_reg' due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array 'shift_reg'.
+WARNING: [HLS 200-885] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to schedule 'store' operation ('shift_reg_addr_2_write_ln31', fir.cpp:31) of variable 'shift_reg_load_2', fir.cpp:31 on array 'shift_reg' due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array 'shift_reg'.
+WARNING: [HLS 200-885] The II Violation in module 'fir_Pipeline_TDL' (loop 'TDL'): Unable to schedule 'store' operation ('shift_reg_addr_4_write_ln31', fir.cpp:31) of variable 'shift_reg_load_3', fir.cpp:31 on array 'shift_reg' due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array 'shift_reg'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 5, Depth = 5, loop 'TDL'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.1 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 318.452 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 318.712 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir_Pipeline_MAC' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'MAC'.
+WARNING: [HLS 200-885] The II Violation in module 'fir_Pipeline_MAC' (loop 'MAC'): Unable to schedule 'load' operation ('shift_reg_load_4', fir.cpp:38) on array 'shift_reg' due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array 'shift_reg'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 2, Depth = 5, loop 'MAC'
+WARNING: [HLS 200-871] Estimated clock period (10.449ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'fir_Pipeline_MAC' consists of the following:	'load' operation ('c_0_load_1') on array 'c_0' [48]  (2.32 ns)
+	'select' operation ('select_ln225_1') [50]  (1.22 ns)
+	'mul' operation ('mul_ln38_1', fir.cpp:38) [52]  (6.91 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.14 seconds. CPU system time: 0 seconds. Elapsed time: 0.15 seconds; current allocated memory: 319.099 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name fir fir 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.671 MB.
+INFO: [HLS 200-10] Analyzing design file 'fir.cpp' ... 
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:23:9
+WARNING: [HLS 207-5301] unused parameter 'print': /tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16
+WARNING: [HLS 207-5514] 'Resource pragma' is deprecated, and it will be removed in future release. It is suggested to replace it with 'bind_op/bind_storage pragma'.: fir.cpp:23:9
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 4.69 seconds. CPU system time: 0.41 seconds. Elapsed time: 4.36 seconds; current allocated memory: 253.033 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.13 seconds. CPU system time: 0.33 seconds. Elapsed time: 4.46 seconds; current allocated memory: 255.020 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.025 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 261.939 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 270.630 MB.
+WARNING: [HLS 200-915] Ignore complete array partition directive on 'shift_reg'  in dimension 1: conflict with resource constraint assignment.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.09 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.13 seconds; current allocated memory: 301.215 MB.
+INFO: [HLS 200-472] Inferring partial write operation for 'shift_reg' (fir.cpp:42:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'shift_reg' (fir.cpp:31:15)
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 317.345 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fir' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir_Pipeline_TDL' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'TDL'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'TDL'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 317.596 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 317.767 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir_Pipeline_MAC' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'MAC'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 5, loop 'MAC'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 317.936 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 318.097 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 318.192 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 318.337 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir_Pipeline_TDL' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'fir_Pipeline_TDL' pipeline 'TDL' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fir_Pipeline_TDL'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 318.710 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir_Pipeline_MAC' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'fir_Pipeline_MAC' pipeline 'MAC' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_5s_32_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fir_Pipeline_MAC'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 319.575 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/y' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/x' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fir' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fir'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 320.466 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name fir fir 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.671 MB.
+INFO: [HLS 200-10] Analyzing design file 'fir.cpp' ... 
+WARNING: [HLS 207-5301] unused parameter 'print': /tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16
+WARNING: [HLS 207-5541] unknown HLS pragma ignored: fir.cpp:23:9
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 4.69 seconds. CPU system time: 0.4 seconds. Elapsed time: 4.33 seconds; current allocated memory: 253.014 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.41 seconds. CPU system time: 0.36 seconds. Elapsed time: 4.78 seconds; current allocated memory: 255.033 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.038 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 261.969 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.09 seconds; current allocated memory: 270.634 MB.
+INFO: [HLS 200-489] Unrolling loop 'TDL' in function 'fir' completely with a factor of 127.
+INFO: [HLS 200-489] Unrolling loop 'MAC' (fir.cpp:35) in function 'fir' completely with a factor of 127.
+INFO: [XFORM 203-101] Partitioning array 'shift_reg'  in dimension 1 completely.
+INFO: [XFORM 203-11] Balancing expressions in function 'fir' (fir.cpp:17)...160 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.38 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.39 seconds; current allocated memory: 302.438 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.23 seconds. CPU system time: 0 seconds. Elapsed time: 0.24 seconds; current allocated memory: 302.456 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fir' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.57 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.57 seconds; current allocated memory: 304.657 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.73 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.74 seconds; current allocated memory: 306.966 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/y' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/x' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fir' to 'ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'shift_reg' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_125' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_126' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_127' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_128' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_129' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_130' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_131' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_132' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_133' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_134' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_135' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_136' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_137' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_138' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_139' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_140' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_141' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_142' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_143' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_144' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_145' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_146' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_147' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_148' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_149' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_150' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_99' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_98' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_97' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_96' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_95' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_94' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_93' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_92' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_91' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_90' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_89' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_88' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_87' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_86' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_85' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_84' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_83' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_82' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_81' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_80' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_79' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_78' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_77' is power-on initialization.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name fir fir 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.671 MB.
+INFO: [HLS 200-10] Analyzing design file 'fir.cpp' ... 
+WARNING: [HLS 207-5301] unused parameter 'print': /tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 4.87 seconds. CPU system time: 0.4 seconds. Elapsed time: 4.48 seconds; current allocated memory: 253.013 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.24 seconds. CPU system time: 0.32 seconds. Elapsed time: 4.58 seconds; current allocated memory: 255.000 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.001 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 261.937 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.09 seconds; current allocated memory: 270.603 MB.
+INFO: [HLS 200-489] Unrolling loop 'TDL' in function 'fir' completely with a factor of 127.
+INFO: [HLS 200-489] Unrolling loop 'MAC' (fir.cpp:34) in function 'fir' completely with a factor of 127.
+INFO: [XFORM 203-101] Partitioning array 'shift_reg'  in dimension 1 completely.
+INFO: [XFORM 203-11] Balancing expressions in function 'fir' (fir.cpp:17)...160 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.24 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.24 seconds; current allocated memory: 302.443 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.2 seconds. CPU system time: 0 seconds. Elapsed time: 0.21 seconds; current allocated memory: 302.442 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fir' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.5 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.51 seconds; current allocated memory: 304.642 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.53 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.53 seconds; current allocated memory: 306.963 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/y' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/x' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fir' to 'ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'shift_reg' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_125' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_126' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_127' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_128' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_129' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_130' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_131' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_132' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_133' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_134' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_135' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_136' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_137' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_138' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_139' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_140' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_141' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_142' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_143' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_144' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_145' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_146' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_147' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_148' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_149' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_150' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_99' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_98' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_97' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_96' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_95' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_94' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_93' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_92' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_91' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_90' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_89' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_88' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_87' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_86' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_85' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_84' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_83' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_82' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_81' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_80' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_79' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_78' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_77' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_76' is power-on initialization.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name fir fir 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.671 MB.
+INFO: [HLS 200-10] Analyzing design file 'fir.cpp' ... 
+WARNING: [HLS 207-5301] unused parameter 'print': /tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 4.95 seconds. CPU system time: 0.39 seconds. Elapsed time: 4.68 seconds; current allocated memory: 253.013 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.46 seconds. CPU system time: 0.34 seconds. Elapsed time: 4.8 seconds; current allocated memory: 255.000 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.002 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 261.939 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.09 seconds; current allocated memory: 270.599 MB.
+INFO: [HLS 200-489] Unrolling loop 'TDL' in function 'fir' completely with a factor of 127.
+INFO: [HLS 200-489] Unrolling loop 'MAC' (fir.cpp:35) in function 'fir' completely with a factor of 127.
+INFO: [XFORM 203-101] Partitioning array 'c'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'shift_reg'  in dimension 1 completely.
+INFO: [XFORM 203-11] Balancing expressions in function 'fir' (fir.cpp:17)...160 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.25 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.25 seconds; current allocated memory: 302.435 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.22 seconds. CPU system time: 0 seconds. Elapsed time: 0.22 seconds; current allocated memory: 302.451 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fir' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.49 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.52 seconds; current allocated memory: 304.652 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.61 seconds. CPU system time: 0 seconds. Elapsed time: 0.62 seconds; current allocated memory: 306.958 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/y' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/x' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fir' to 'ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'shift_reg' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_125' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_126' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_127' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_128' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_129' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_130' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_131' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_132' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_133' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_134' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_135' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_136' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_137' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_138' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_139' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_140' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_141' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_142' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_143' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_144' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_145' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_146' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_147' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_148' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_149' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_150' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_99' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_98' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_97' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_96' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_95' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_94' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_93' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_92' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_91' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_90' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_89' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_88' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_87' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_86' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_85' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_84' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_83' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_82' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_81' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_80' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_79' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_78' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_77' is power-on initialization.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name fir fir 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.671 MB.
+INFO: [HLS 200-10] Analyzing design file 'fir.cpp' ... 
+WARNING: [HLS 207-5301] unused parameter 'print': /tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 4.7 seconds. CPU system time: 0.33 seconds. Elapsed time: 4.38 seconds; current allocated memory: 253.013 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.1 seconds. CPU system time: 0.33 seconds. Elapsed time: 4.43 seconds; current allocated memory: 255.000 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0.01 seconds. Elapsed time: 0 seconds; current allocated memory: 255.002 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 261.937 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 270.599 MB.
+INFO: [HLS 200-489] Unrolling loop 'TDL' in function 'fir' completely with a factor of 127.
+INFO: [HLS 200-489] Unrolling loop 'MAC' (fir.cpp:33) in function 'fir' completely with a factor of 127.
+INFO: [XFORM 203-101] Partitioning array 'shift_reg'  in dimension 1 completely.
+INFO: [XFORM 203-11] Balancing expressions in function 'fir' (fir.cpp:17)...160 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.24 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.26 seconds; current allocated memory: 302.438 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.24 seconds. CPU system time: 0 seconds. Elapsed time: 0.24 seconds; current allocated memory: 302.444 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fir' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.56 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.57 seconds; current allocated memory: 304.640 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.52 seconds. CPU system time: 0 seconds. Elapsed time: 0.52 seconds; current allocated memory: 306.964 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/y' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/x' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fir' to 'ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'shift_reg' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_125' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_126' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_127' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_128' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_129' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_130' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_131' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_132' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_133' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_134' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_135' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_136' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_137' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_138' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_139' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_140' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_141' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_142' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_143' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_144' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_145' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_146' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_147' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_148' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_149' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_150' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_99' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_98' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_97' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_96' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_95' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_94' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_93' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_92' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_91' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_90' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_89' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_88' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_87' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_86' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_85' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_84' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_83' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_82' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_81' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_80' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_79' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_78' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_77' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'shift_reg_76' is power-on initialization.

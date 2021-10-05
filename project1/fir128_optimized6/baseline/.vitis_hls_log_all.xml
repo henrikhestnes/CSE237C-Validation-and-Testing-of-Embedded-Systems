@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_0' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.431-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_1' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.363-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_2' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.361-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_3' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.359-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_4' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.356-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_5' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.354-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_6' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.352-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_7' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.350-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_8' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.347-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_9' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.346-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_10' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.343-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_11' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.340-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_12' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.336-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_13' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.334-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_14' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.331-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_15' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.328-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_16' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.326-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_17' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.323-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_reg_18' is power-on initialization." projectName="baseline" solutionName="solution1" date="2021-10-04T15:15:53.322-0700" type="Warning"/>
+      </synLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

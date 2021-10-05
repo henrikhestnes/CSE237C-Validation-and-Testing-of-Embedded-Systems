@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [HLS 200-915] Ignore complete array partition directive on 'shift_reg'  in dimension 1: conflict with resource constraint assignment." projectName="baseline" solutionName="solution1" date="2021-10-04T14:20:45.531-0700" type="Warning"/>
+        <logs message="WARNING: [HLS 200-915] Ignore complete array partition directive on 'c'  in dimension 1: conflict with resource constraint assignment." projectName="baseline" solutionName="solution1" date="2021-10-04T14:20:45.508-0700" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
