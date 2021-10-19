@@ -1,0 +1,149 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "cordiccart2pol",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "s_axilite",
+                "value": ""
+              },
+              {
+                "name": "port",
+                "value": "x"
+              },
+              {
+                "name": "bundle",
+                "value": "cordic_io"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "cordiccart2pol",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "s_axilite",
+                "value": ""
+              },
+              {
+                "name": "port",
+                "value": "y"
+              },
+              {
+                "name": "bundle",
+                "value": "cordic_io"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "cordiccart2pol",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "s_axilite",
+                "value": ""
+              },
+              {
+                "name": "port",
+                "value": "r"
+              },
+              {
+                "name": "bundle",
+                "value": "cordic_io"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "cordiccart2pol",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "s_axilite",
+                "value": ""
+              },
+              {
+                "name": "port",
+                "value": "theta"
+              },
+              {
+                "name": "bundle",
+                "value": "cordic_io"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "cordiccart2pol",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "s_axilite",
+                "value": ""
+              },
+              {
+                "name": "port",
+                "value": "Kvalues"
+              },
+              {
+                "name": "bundle",
+                "value": "cordic_io"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "cordiccart2pol",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "s_axilite",
+                "value": ""
+              },
+              {
+                "name": "port",
+                "value": "angles"
+              },
+              {
+                "name": "bundle",
+                "value": "cordic_io"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "cordiccart2pol",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "cordiccart2pol"
+              }]
+          }
+        }
+      ]
+    }]}

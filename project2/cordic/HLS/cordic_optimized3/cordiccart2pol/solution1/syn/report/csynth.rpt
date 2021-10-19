@@ -1,0 +1,77 @@
+
+
+================================================================
+== Synthesis Summary Report of 'cordiccart2pol'
+================================================================
++ General Information: 
+    * Date:           Sun Oct 17 19:29:55 2021
+    * Version:        2021.1.1 (Build 3286242 on Wed Jul 28 13:09:46 MDT 2021)
+    * Project:        cordiccart2pol
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg400-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +--------------------+------+------+---------+-----------+----------+---------+------+----------+------+---------+-----------+-----------+-----+
+    |       Modules      | Issue|      | Latency |  Latency  | Iteration|         | Trip |          |      |         |           |           |     |
+    |       & Loops      | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined| BRAM |   DSP   |     FF    |    LUT    | URAM|
+    +--------------------+------+------+---------+-----------+----------+---------+------+----------+------+---------+-----------+-----------+-----+
+    |+ cordiccart2pol    |     -|  0.04|      196|  1.960e+03|         -|      197|     -|        no|     -|  21 (9%)|  1899 (1%)|  3007 (5%)|    -|
+    | o VITIS_LOOP_22_1  |    II|  7.30|      182|  1.820e+03|        12|        9|    20|       yes|     -|        -|          -|          -|    -|
+    +--------------------+------+------+---------+-----------+----------+---------+------+----------+------+---------+-----------+-----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 6             | 16     | 0        |
++---------------+------------+---------------+--------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| x        | in        | float    |
+| y        | in        | float    |
+| r        | out       | float*   |
+| theta    | out       | float*   |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+--------------------------+----------+-----------------------+
+| Argument | HW Name                  | HW Type  | HW Info               |
++----------+--------------------------+----------+-----------------------+
+| x        | s_axi_control x          | register | offset=0x10, range=32 |
+| y        | s_axi_control y          | register | offset=0x18, range=32 |
+| r        | s_axi_control r          | register | offset=0x20, range=32 |
+| r        | s_axi_control r_ctrl     | register | offset=0x24, range=32 |
+| theta    | s_axi_control theta      | register | offset=0x30, range=32 |
+| theta    | s_axi_control theta_ctrl | register | offset=0x34, range=32 |
++----------+--------------------------+----------+-----------------------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+

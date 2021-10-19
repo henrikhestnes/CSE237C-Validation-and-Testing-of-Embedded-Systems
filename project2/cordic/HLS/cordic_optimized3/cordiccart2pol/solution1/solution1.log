@@ -1,0 +1,841 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 251.639 MB.
+INFO: [HLS 200-10] Analyzing design file 'cordiccart2pol.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.9 seconds. CPU system time: 0.28 seconds. Elapsed time: 0.74 seconds; current allocated memory: 252.878 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 3.74 seconds. CPU system time: 0.28 seconds. Elapsed time: 4.1 seconds; current allocated memory: 254.788 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 254.790 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 255.984 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 255.208 MB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_22_1' (cordiccart2pol.cpp:21) in function 'cordiccart2pol' automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (cordiccart2pol.cpp:21:9) in function 'cordiccart2pol'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (cordiccart2pol.cpp:22:19) in function 'cordiccart2pol'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 275.784 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 268.479 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'cordiccart2pol' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_22_1'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 7, distance = 1, offset = 0) between 'store' operation ('x_temp_write_ln24', cordiccart2pol.cpp:24) of variable 'x', cordiccart2pol.cpp:24 on local variable 'x' and 'load' operation ('x_temp_load', cordiccart2pol.cpp:25) on local variable 'x'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 8, distance = 1, offset = 0) between 'store' operation ('x_temp_write_ln24', cordiccart2pol.cpp:24) of variable 'x', cordiccart2pol.cpp:24 on local variable 'x' and 'load' operation ('x_temp_load', cordiccart2pol.cpp:25) on local variable 'x'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 9, Depth = 12, loop 'VITIS_LOOP_22_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.14 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.19 seconds; current allocated memory: 269.037 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.21 seconds. CPU system time: 0 seconds. Elapsed time: 0.21 seconds; current allocated memory: 269.544 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/x' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/y' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/r' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/theta' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'cordiccart2pol' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_7_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fpext_32ns_64_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fptrunc_64ns_32_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cordiccart2pol'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.16 seconds. CPU system time: 0 seconds. Elapsed time: 0.17 seconds; current allocated memory: 270.669 MB.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_Kvalues' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_angles' using auto ROMs.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.66 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.68 seconds; current allocated memory: 274.343 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.25 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.26 seconds; current allocated memory: 280.843 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name cordiccart2pol cordiccart2pol 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.609 MB.
+INFO: [HLS 200-10] Analyzing design file 'cordiccart2pol.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1.18 seconds. CPU system time: 0.35 seconds. Elapsed time: 0.82 seconds; current allocated memory: 252.890 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.02 seconds. CPU system time: 0.28 seconds. Elapsed time: 4.3 seconds; current allocated memory: 254.801 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 254.803 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 255.997 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 255.219 MB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_26_1' (cordiccart2pol.cpp:25) in function 'cordiccart2pol' automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (cordiccart2pol.cpp:25:9) in function 'cordiccart2pol'... converting 4 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 275.747 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 268.496 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'cordiccart2pol' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_26_1'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_26_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0) between 'store' operation ('storemerge_in_write_ln28', cordiccart2pol.cpp:28) of variable 'select_ln28', cordiccart2pol.cpp:28 on local variable 'storemerge_in' and 'load' operation ('storemerge_in_load', cordiccart2pol.cpp:31) on local variable 'storemerge_in'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_26_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('storemerge_in_write_ln28', cordiccart2pol.cpp:28) of variable 'select_ln28', cordiccart2pol.cpp:28 on local variable 'storemerge_in' and 'load' operation ('storemerge_in_load', cordiccart2pol.cpp:31) on local variable 'storemerge_in'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_26_1'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('storemerge_in_write_ln28', cordiccart2pol.cpp:28) of variable 'select_ln28', cordiccart2pol.cpp:28 on local variable 'storemerge_in' and 'load' operation ('storemerge_in_load', cordiccart2pol.cpp:31) on local variable 'storemerge_in'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_26_1'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('storemerge_in_write_ln28', cordiccart2pol.cpp:28) of variable 'select_ln28', cordiccart2pol.cpp:28 on local variable 'storemerge_in' and 'load' operation ('storemerge_in_load', cordiccart2pol.cpp:31) on local variable 'storemerge_in'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_26_1'): Unable to enforce a carried dependence constraint (II = 7, distance = 1, offset = 0) between 'store' operation ('x_temp_write_ln28', cordiccart2pol.cpp:28) of variable 'x', cordiccart2pol.cpp:28 on local variable 'x' and 'load' operation ('x_temp_load', cordiccart2pol.cpp:29) on local variable 'x'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_26_1'): Unable to enforce a carried dependence constraint (II = 8, distance = 1, offset = 0) between 'store' operation ('x_temp_write_ln28', cordiccart2pol.cpp:28) of variable 'x', cordiccart2pol.cpp:28 on local variable 'x' and 'load' operation ('x_temp_load', cordiccart2pol.cpp:29) on local variable 'x'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 9, Depth = 12, loop 'VITIS_LOOP_26_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.16 seconds. CPU system time: 0 seconds. Elapsed time: 0.16 seconds; current allocated memory: 269.069 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.22 seconds. CPU system time: 0 seconds. Elapsed time: 0.22 seconds; current allocated memory: 269.625 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/x' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/y' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/r' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/theta' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'cordiccart2pol' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_7_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fpext_32ns_64_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fptrunc_64ns_32_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cordiccart2pol'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.28 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.29 seconds; current allocated memory: 270.768 MB.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_Kvalues' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_angles' using auto ROMs.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.98 seconds. CPU system time: 0.02 seconds. Elapsed time: 1.01 seconds; current allocated memory: 274.542 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.23 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.25 seconds; current allocated memory: 281.064 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name cordiccart2pol cordiccart2pol 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.609 MB.
+INFO: [HLS 200-10] Analyzing design file 'cordiccart2pol.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1.01 seconds. CPU system time: 0.32 seconds. Elapsed time: 0.72 seconds; current allocated memory: 252.890 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 5.19 seconds. CPU system time: 0.47 seconds. Elapsed time: 5.67 seconds; current allocated memory: 254.802 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 254.803 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 256.000 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 255.222 MB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_22_1' (cordiccart2pol.cpp:21) in function 'cordiccart2pol' automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (cordiccart2pol.cpp:21:9) in function 'cordiccart2pol'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (cordiccart2pol.cpp:22:19) in function 'cordiccart2pol'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.09 seconds; current allocated memory: 275.783 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 268.464 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'cordiccart2pol' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_22_1'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 7, distance = 1, offset = 0) between 'store' operation ('x_temp_write_ln24', cordiccart2pol.cpp:24) of variable 'x', cordiccart2pol.cpp:24 on local variable 'x' and 'load' operation ('x_temp_load', cordiccart2pol.cpp:25) on local variable 'x'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 8, distance = 1, offset = 0) between 'store' operation ('x_temp_write_ln24', cordiccart2pol.cpp:24) of variable 'x', cordiccart2pol.cpp:24 on local variable 'x' and 'load' operation ('x_temp_load', cordiccart2pol.cpp:25) on local variable 'x'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 9, Depth = 12, loop 'VITIS_LOOP_22_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.25 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.28 seconds; current allocated memory: 269.038 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.23 seconds. CPU system time: 0 seconds. Elapsed time: 0.23 seconds; current allocated memory: 269.575 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/x' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/y' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/r' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/theta' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'cordiccart2pol' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_7_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fpext_32ns_64_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fptrunc_64ns_32_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cordiccart2pol'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.18 seconds. CPU system time: 0 seconds. Elapsed time: 0.17 seconds; current allocated memory: 270.687 MB.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_Kvalues' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_angles' using auto ROMs.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.82 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.84 seconds; current allocated memory: 274.372 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.24 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.24 seconds; current allocated memory: 280.891 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name cordiccart2pol cordiccart2pol 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 251.609 MB.
+INFO: [HLS 200-10] Analyzing design file 'cordiccart2pol.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.98 seconds. CPU system time: 0.31 seconds. Elapsed time: 0.69 seconds; current allocated memory: 252.890 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 3.67 seconds. CPU system time: 0.24 seconds. Elapsed time: 3.92 seconds; current allocated memory: 254.803 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 254.804 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 256.001 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 255.223 MB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_22_1' (cordiccart2pol.cpp:21) in function 'cordiccart2pol' automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (cordiccart2pol.cpp:21:9) in function 'cordiccart2pol'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (cordiccart2pol.cpp:22:19) in function 'cordiccart2pol'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 275.784 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 268.372 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'cordiccart2pol' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_22_1'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 7, distance = 1, offset = 0) between 'store' operation ('x_temp_write_ln24', cordiccart2pol.cpp:24) of variable 'x', cordiccart2pol.cpp:24 on local variable 'x' and 'load' operation ('x_temp_load', cordiccart2pol.cpp:25) on local variable 'x'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 8, distance = 1, offset = 0) between 'store' operation ('x_temp_write_ln24', cordiccart2pol.cpp:24) of variable 'x', cordiccart2pol.cpp:24 on local variable 'x' and 'load' operation ('x_temp_load', cordiccart2pol.cpp:25) on local variable 'x'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 9, Depth = 12, loop 'VITIS_LOOP_22_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.12 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.14 seconds; current allocated memory: 268.944 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.21 seconds. CPU system time: 0 seconds. Elapsed time: 0.2 seconds; current allocated memory: 269.481 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/x' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/y' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/r' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/theta' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'cordiccart2pol' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_7_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fpext_32ns_64_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fptrunc_64ns_32_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cordiccart2pol'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.16 seconds. CPU system time: 0 seconds. Elapsed time: 0.16 seconds; current allocated memory: 270.592 MB.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_Kvalues' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_angles' using auto ROMs.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.64 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.66 seconds; current allocated memory: 274.267 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.23 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.24 seconds; current allocated memory: 280.848 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name cordiccart2pol cordiccart2pol 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.609 MB.
+INFO: [HLS 200-10] Analyzing design file 'cordiccart2pol.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1.22 seconds. CPU system time: 0.35 seconds. Elapsed time: 0.85 seconds; current allocated memory: 252.890 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 3.73 seconds. CPU system time: 0.3 seconds. Elapsed time: 4.03 seconds; current allocated memory: 254.802 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 254.804 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 256.003 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.225 MB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_22_1' (cordiccart2pol.cpp:21) in function 'cordiccart2pol' automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (cordiccart2pol.cpp:21:9) in function 'cordiccart2pol'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (cordiccart2pol.cpp:22:19) in function 'cordiccart2pol'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 275.786 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 268.467 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'cordiccart2pol' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_22_1'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 7, distance = 1, offset = 0) between 'store' operation ('x_temp_write_ln24', cordiccart2pol.cpp:24) of variable 'x', cordiccart2pol.cpp:24 on local variable 'x' and 'load' operation ('x_temp_load', cordiccart2pol.cpp:25) on local variable 'x'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 8, distance = 1, offset = 0) between 'store' operation ('x_temp_write_ln24', cordiccart2pol.cpp:24) of variable 'x', cordiccart2pol.cpp:24 on local variable 'x' and 'load' operation ('x_temp_load', cordiccart2pol.cpp:25) on local variable 'x'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 9, Depth = 12, loop 'VITIS_LOOP_22_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.18 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.19 seconds; current allocated memory: 269.038 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.18 seconds. CPU system time: 0 seconds. Elapsed time: 0.19 seconds; current allocated memory: 269.576 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/x' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/y' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/r' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/theta' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'cordiccart2pol' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_7_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fpext_32ns_64_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fptrunc_64ns_32_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cordiccart2pol'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.17 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.17 seconds; current allocated memory: 270.686 MB.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_Kvalues' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_angles' using auto ROMs.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.02 seconds; current allocated memory: 274.407 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.23 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.24 seconds; current allocated memory: 280.926 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name cordiccart2pol cordiccart2pol 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 251.609 MB.
+INFO: [HLS 200-10] Analyzing design file 'cordiccart2pol.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.96 seconds. CPU system time: 0.32 seconds. Elapsed time: 0.69 seconds; current allocated memory: 252.890 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 3.73 seconds. CPU system time: 0.26 seconds. Elapsed time: 3.99 seconds; current allocated memory: 254.803 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 254.804 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 256.003 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.226 MB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_22_1' (cordiccart2pol.cpp:21) in function 'cordiccart2pol' automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (cordiccart2pol.cpp:21:9) in function 'cordiccart2pol'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (cordiccart2pol.cpp:22:19) in function 'cordiccart2pol'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 275.787 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 268.467 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'cordiccart2pol' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_22_1'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 7, distance = 1, offset = 0) between 'store' operation ('x_temp_write_ln24', cordiccart2pol.cpp:24) of variable 'x', cordiccart2pol.cpp:24 on local variable 'x' and 'load' operation ('x_temp_load', cordiccart2pol.cpp:25) on local variable 'x'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 8, distance = 1, offset = 0) between 'store' operation ('x_temp_write_ln24', cordiccart2pol.cpp:24) of variable 'x', cordiccart2pol.cpp:24 on local variable 'x' and 'load' operation ('x_temp_load', cordiccart2pol.cpp:25) on local variable 'x'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 9, Depth = 12, loop 'VITIS_LOOP_22_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.13 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.14 seconds; current allocated memory: 269.038 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.17 seconds. CPU system time: 0 seconds. Elapsed time: 0.18 seconds; current allocated memory: 269.576 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/x' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/y' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/r' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/theta' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'cordiccart2pol' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_7_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fpext_32ns_64_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fptrunc_64ns_32_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cordiccart2pol'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.17 seconds. CPU system time: 0 seconds. Elapsed time: 0.16 seconds; current allocated memory: 270.688 MB.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_Kvalues' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_angles' using auto ROMs.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.8 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.81 seconds; current allocated memory: 274.359 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.26 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.26 seconds; current allocated memory: 280.940 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol Kvalues 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol angles 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol x 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol y 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol r 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol theta 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.862 MB.
+INFO: [HLS 200-10] Analyzing design file 'cordiccart2pol.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1.44 seconds. CPU system time: 0.5 seconds. Elapsed time: 1.23 seconds; current allocated memory: 253.155 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+WARNING: [HLS 214-238] The INTERFACE pragma actions in object field. If on struct field, the struct argument must be pointer or reference. If struct by value, this interface pragma will be viewed as invalid and ignored. In function 'cordiccart2pol(float, float, float*, float*)' (cordiccart2pol.cpp:12:0)
+WARNING: [HLS 214-238] The INTERFACE pragma actions in object field. If on struct field, the struct argument must be pointer or reference. If struct by value, this interface pragma will be viewed as invalid and ignored. In function 'cordiccart2pol(float, float, float*, float*)' (cordiccart2pol.cpp:12:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.42 seconds. CPU system time: 0.34 seconds. Elapsed time: 4.83 seconds; current allocated memory: 255.134 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.135 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 256.341 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 255.572 MB.
+WARNING: [XFORM 203-803] Dropped interface mode 'ap_auto' on 'r' (cordiccart2pol.cpp:11) as it is incompatible with its interface mode 's_axilite'.
+WARNING: [XFORM 203-803] Dropped interface mode 'ap_auto' on 'theta' (cordiccart2pol.cpp:11) as it is incompatible with its interface mode 's_axilite'.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (cordiccart2pol.cpp:21:9) in function 'cordiccart2pol'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (cordiccart2pol.cpp:22:19) in function 'cordiccart2pol'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 276.135 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 268.894 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'cordiccart2pol' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.22 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.26 seconds; current allocated memory: 269.458 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.32 seconds. CPU system time: 0 seconds. Elapsed time: 0.34 seconds; current allocated memory: 269.965 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/x' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/y' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/r' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/theta' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'cordiccart2pol' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'x', 'y', 'r', 'theta' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_7_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fpext_32ns_64_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fptrunc_64ns_32_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cordiccart2pol'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.28 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.3 seconds; current allocated memory: 270.996 MB.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_Kvalues' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_angles' using auto ROMs.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1.04 seconds. CPU system time: 0.02 seconds. Elapsed time: 1.08 seconds; current allocated memory: 275.652 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.54 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.58 seconds; current allocated memory: 282.977 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for cordiccart2pol.
+INFO: [VLOG 209-307] Generating Verilog RTL for cordiccart2pol.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 137.82 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 8.42 seconds. CPU system time: 0.98 seconds. Elapsed time: 8.8 seconds; current allocated memory: 282.964 MB.
+INFO: [HLS 200-112] Total CPU user time: 12.48 seconds. Total CPU system time: 1.57 seconds. Total elapsed time: 11.61 seconds; peak allocated memory: 282.977 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol Kvalues 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol angles 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol x 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol y 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol r 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol theta 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.862 MB.
+INFO: [HLS 200-10] Analyzing design file 'cordiccart2pol.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1.42 seconds. CPU system time: 0.45 seconds. Elapsed time: 1.24 seconds; current allocated memory: 253.155 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+WARNING: [HLS 214-238] The INTERFACE pragma actions in object field. If on struct field, the struct argument must be pointer or reference. If struct by value, this interface pragma will be viewed as invalid and ignored. In function 'cordiccart2pol(float, float, float*, float*)' (cordiccart2pol.cpp:12:0)
+WARNING: [HLS 214-238] The INTERFACE pragma actions in object field. If on struct field, the struct argument must be pointer or reference. If struct by value, this interface pragma will be viewed as invalid and ignored. In function 'cordiccart2pol(float, float, float*, float*)' (cordiccart2pol.cpp:12:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.47 seconds. CPU system time: 0.36 seconds. Elapsed time: 4.9 seconds; current allocated memory: 255.135 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.136 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 256.342 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 255.572 MB.
+WARNING: [XFORM 203-803] Dropped interface mode 'ap_auto' on 'r' (cordiccart2pol.cpp:11) as it is incompatible with its interface mode 's_axilite'.
+WARNING: [XFORM 203-803] Dropped interface mode 'ap_auto' on 'theta' (cordiccart2pol.cpp:11) as it is incompatible with its interface mode 's_axilite'.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (cordiccart2pol.cpp:21:9) in function 'cordiccart2pol'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (cordiccart2pol.cpp:22:19) in function 'cordiccart2pol'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 276.134 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 268.897 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'cordiccart2pol' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.2 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.25 seconds; current allocated memory: 269.458 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.36 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.37 seconds; current allocated memory: 269.964 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/x' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/y' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/r' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cordiccart2pol/theta' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'cordiccart2pol' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'x', 'y', 'r', 'theta' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_7_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fpext_32ns_64_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fptrunc_64ns_32_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cordiccart2pol'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.26 seconds. CPU system time: 0 seconds. Elapsed time: 0.27 seconds; current allocated memory: 270.994 MB.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_Kvalues' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'cordiccart2pol_angles' using auto ROMs.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1.04 seconds. CPU system time: 0.04 seconds. Elapsed time: 1.1 seconds; current allocated memory: 275.650 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.54 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.57 seconds; current allocated memory: 282.944 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for cordiccart2pol.
+INFO: [VLOG 209-307] Generating Verilog RTL for cordiccart2pol.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 137.82 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 8.44 seconds. CPU system time: 0.94 seconds. Elapsed time: 8.9 seconds; current allocated memory: 282.931 MB.
+INFO: [HLS 200-112] Total CPU user time: 13.5 seconds. Total CPU system time: 1.73 seconds. Total elapsed time: 12.46 seconds; peak allocated memory: 282.944 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1.1 (64-bit)
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol Kvalues 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol angles 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol x 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol y 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol r 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode s_axilite cordiccart2pol theta 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 251.862 MB.
+INFO: [HLS 200-10] Analyzing design file 'cordiccart2pol.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1.56 seconds. CPU system time: 0.47 seconds. Elapsed time: 1.16 seconds; current allocated memory: 253.155 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-279] Initial Interval estimation mode is set into default.
+INFO: [HLS 214-284] Auto array partition mode is set into default.
+INFO: [HLS 214-270] Starting automatic array partition analysis...
+WARNING: [HLS 214-238] The INTERFACE pragma actions in object field. If on struct field, the struct argument must be pointer or reference. If struct by value, this interface pragma will be viewed as invalid and ignored. In function 'cordiccart2pol(float, float, float*, float*)' (cordiccart2pol.cpp:12:0)
+WARNING: [HLS 214-238] The INTERFACE pragma actions in object field. If on struct field, the struct argument must be pointer or reference. If struct by value, this interface pragma will be viewed as invalid and ignored. In function 'cordiccart2pol(float, float, float*, float*)' (cordiccart2pol.cpp:12:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.49 seconds. CPU system time: 0.43 seconds. Elapsed time: 4.94 seconds; current allocated memory: 255.134 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 255.135 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 256.340 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 255.569 MB.
+WARNING: [XFORM 203-803] Dropped interface mode 'ap_auto' on 'r' (cordiccart2pol.cpp:11) as it is incompatible with its interface mode 's_axilite'.
+WARNING: [XFORM 203-803] Dropped interface mode 'ap_auto' on 'theta' (cordiccart2pol.cpp:11) as it is incompatible with its interface mode 's_axilite'.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_22_1' (cordiccart2pol.cpp:21) in function 'cordiccart2pol' automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (cordiccart2pol.cpp:21:9) in function 'cordiccart2pol'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (cordiccart2pol.cpp:22:19) in function 'cordiccart2pol'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 276.152 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 268.917 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'cordiccart2pol' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cordiccart2pol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_22_1'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('y_assign_2_write_ln24', cordiccart2pol.cpp:24) of variable 'y', cordiccart2pol.cpp:24 on local variable 'y' and 'load' operation ('y_assign_2_load', cordiccart2pol.cpp:31) on local variable 'y'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 7, distance = 1, offset = 0) between 'store' operation ('x_temp_write_ln24', cordiccart2pol.cpp:24) of variable 'x', cordiccart2pol.cpp:24 on local variable 'x' and 'load' operation ('x_temp_load', cordiccart2pol.cpp:25) on local variable 'x'.
+WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_22_1'): Unable to enforce a carried dependence constraint (II = 8, distance = 1, offset = 0) between 'store' operation ('x_temp_write_ln24', cordiccart2pol.cpp:24) of variable 'x', cordiccart2pol.cpp:24 on local variable 'x' and 'load' operation ('x_temp_load', cordiccart2pol.cpp:25) on local variable 'x'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 9, Depth = 12, loop 'VITIS_LOOP_22_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.24 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.27 seconds; current allocated memory: 269.480 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.41 seconds. CPU system time: 0 seconds. Elapsed time: 0.41 seconds; current allocated memory: 270.012 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cordiccart2pol' 
+INFO: [HLS 200-10]

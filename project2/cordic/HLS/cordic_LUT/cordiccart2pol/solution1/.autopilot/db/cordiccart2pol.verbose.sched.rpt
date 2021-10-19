@@ -1,0 +1,181 @@
+
+
+================================================================
+== Vitis HLS Report for 'cordiccart2pol'
+================================================================
+* Date:           Fri Oct 15 18:40:37 2021
+
+* Version:        2021.1.1 (Build 3286242 on Wed Jul 28 13:09:46 MDT 2021)
+* Project:        cordiccart2pol
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  5.480 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |        2|        2|  20.000 ns|  20.000 ns|    3|    3|       no|
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 3
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 3.25>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%my_LUT_th_V = alloca i64 1" [cordiccart2pol.cpp:42]   --->   Operation 4 'alloca' 'my_LUT_th_V' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 1> <Depth = 65536> <RAM>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%my_LUT_r_V = alloca i64 1" [cordiccart2pol.cpp:43]   --->   Operation 5 'alloca' 'my_LUT_r_V' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 1> <Depth = 65536> <RAM>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%my_LUT_th_V_addr = getelementptr i1 %my_LUT_th_V, i64 0, i64 0"   --->   Operation 6 'getelementptr' 'my_LUT_th_V_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (3.25ns)   --->   "%store_ln740 = store i1 0, i16 %my_LUT_th_V_addr"   --->   Operation 7 'store' 'store_ln740' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 1> <Depth = 65536> <RAM>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%my_LUT_r_V_addr = getelementptr i1 %my_LUT_r_V, i64 0, i64 0"   --->   Operation 8 'getelementptr' 'my_LUT_r_V_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (3.25ns)   --->   "%store_ln740 = store i1 0, i16 %my_LUT_r_V_addr"   --->   Operation 9 'store' 'store_ln740' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 1> <Depth = 65536> <RAM>
+
+State 2 <SV = 1> <Delay = 5.48>
+ST_2 : Operation 10 [1/1] (0.00ns)   --->   "%y_read = read i6 @_ssdm_op_Read.ap_auto.i6, i6 %y"   --->   Operation 10 'read' 'y_read' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 11 [1/1] (0.00ns)   --->   "%x_read = read i6 @_ssdm_op_Read.ap_auto.i6, i6 %x"   --->   Operation 11 'read' 'x_read' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 12 [1/1] (0.00ns)   --->   "%p_Result_s = bitselect i1 @_ssdm_op_BitSelect.i1.i6.i32, i6 %x_read, i32 5"   --->   Operation 12 'bitselect' 'p_Result_s' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 13 [1/1] (0.00ns) (grouped into LUT with out node select_ln340)   --->   "%trunc_ln737 = trunc i6 %x_read"   --->   Operation 13 'trunc' 'trunc_ln737' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 14 [1/1] (0.00ns) (grouped into LUT with out node select_ln340)   --->   "%fixed_x_V_1 = bitconcatenate i8 @_ssdm_op_BitConcatenate.i8.i5.i3, i5 %trunc_ln737, i3 0"   --->   Operation 14 'bitconcatenate' 'fixed_x_V_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 15 [1/1] (0.00ns)   --->   "%p_Result_1 = bitselect i1 @_ssdm_op_BitSelect.i1.i6.i32, i6 %x_read, i32 4"   --->   Operation 15 'bitselect' 'p_Result_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 16 [1/1] (0.00ns) (grouped into LUT with out node xor_ln340)   --->   "%xor_ln794 = xor i1 %p_Result_s, i1 1"   --->   Operation 16 'xor' 'xor_ln794' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 17 [1/1] (0.00ns) (grouped into LUT with out node xor_ln340)   --->   "%overflow = and i1 %p_Result_1, i1 %xor_ln794"   --->   Operation 17 'and' 'overflow' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 18 [1/1] (0.00ns) (grouped into LUT with out node xor_ln340)   --->   "%and_ln795 = and i1 %p_Result_1, i1 %p_Result_s"   --->   Operation 18 'and' 'and_ln795' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 19 [1/1] (0.00ns) (grouped into LUT with out node xor_ln340)   --->   "%or_ln340 = or i1 %p_Result_s, i1 %overflow"   --->   Operation 19 'or' 'or_ln340' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 20 [1/1] (0.00ns) (grouped into LUT with out node select_ln340)   --->   "%trunc_ln346 = trunc i6 %x_read"   --->   Operation 20 'trunc' 'trunc_ln346' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 21 [1/1] (0.00ns) (grouped into LUT with out node select_ln340)   --->   "%p_Result_2 = bitconcatenate i8 @_ssdm_op_BitConcatenate.i8.i1.i4.i3, i1 %p_Result_s, i4 %trunc_ln346, i3 0"   --->   Operation 21 'bitconcatenate' 'p_Result_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 22 [1/1] (0.97ns) (out node of the LUT)   --->   "%xor_ln340 = xor i1 %and_ln795, i1 %or_ln340"   --->   Operation 22 'xor' 'xor_ln340' <Predicate = true> <Delay = 0.97> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%p_Result_3 = bitselect i1 @_ssdm_op_BitSelect.i1.i6.i32, i6 %y_read, i32 5"   --->   Operation 23 'bitselect' 'p_Result_3' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 24 [1/1] (0.00ns) (grouped into LUT with out node select_ln340_1)   --->   "%trunc_ln737_1 = trunc i6 %y_read"   --->   Operation 24 'trunc' 'trunc_ln737_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 25 [1/1] (0.00ns) (grouped into LUT with out node select_ln340_1)   --->   "%fixed_y_V_1 = bitconcatenate i8 @_ssdm_op_BitConcatenate.i8.i5.i3, i5 %trunc_ln737_1, i3 0"   --->   Operation 25 'bitconcatenate' 'fixed_y_V_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 26 [1/1] (0.00ns)   --->   "%p_Result_4 = bitselect i1 @_ssdm_op_BitSelect.i1.i6.i32, i6 %y_read, i32 4"   --->   Operation 26 'bitselect' 'p_Result_4' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 27 [1/1] (0.00ns) (grouped into LUT with out node xor_ln340_1)   --->   "%xor_ln794_1 = xor i1 %p_Result_3, i1 1"   --->   Operation 27 'xor' 'xor_ln794_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 28 [1/1] (0.00ns) (grouped into LUT with out node xor_ln340_1)   --->   "%overflow_1 = and i1 %p_Result_4, i1 %xor_ln794_1"   --->   Operation 28 'and' 'overflow_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 29 [1/1] (0.00ns) (grouped into LUT with out node xor_ln340_1)   --->   "%and_ln795_1 = and i1 %p_Result_4, i1 %p_Result_3"   --->   Operation 29 'and' 'and_ln795_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 30 [1/1] (0.00ns) (grouped into LUT with out node xor_ln340_1)   --->   "%or_ln340_1 = or i1 %p_Result_3, i1 %overflow_1"   --->   Operation 30 'or' 'or_ln340_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 31 [1/1] (0.00ns) (grouped into LUT with out node select_ln340_1)   --->   "%trunc_ln346_1 = trunc i6 %y_read"   --->   Operation 31 'trunc' 'trunc_ln346_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 32 [1/1] (0.00ns) (grouped into LUT with out node select_ln340_1)   --->   "%p_Result_5 = bitconcatenate i8 @_ssdm_op_BitConcatenate.i8.i1.i4.i3, i1 %p_Result_3, i4 %trunc_ln346_1, i3 0"   --->   Operation 32 'bitconcatenate' 'p_Result_5' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 33 [1/1] (0.97ns) (out node of the LUT)   --->   "%xor_ln340_1 = xor i1 %and_ln795_1, i1 %or_ln340_1"   --->   Operation 33 'xor' 'xor_ln340_1' <Predicate = true> <Delay = 0.97> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 34 [1/1] (1.24ns) (out node of the LUT)   --->   "%select_ln340 = select i1 %xor_ln340, i8 %p_Result_2, i8 %fixed_x_V_1"   --->   Operation 34 'select' 'select_ln340' <Predicate = true> <Delay = 1.24> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 35 [1/1] (1.24ns) (out node of the LUT)   --->   "%select_ln340_1 = select i1 %xor_ln340_1, i8 %p_Result_5, i8 %fixed_y_V_1"   --->   Operation 35 'select' 'select_ln340_1' <Predicate = true> <Delay = 1.24> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 36 [1/1] (0.00ns)   --->   "%p_Result_6 = bitconcatenate i16 @_ssdm_op_BitConcatenate.i16.i8.i8, i8 %select_ln340, i8 %select_ln340_1"   --->   Operation 36 'bitconcatenate' 'p_Result_6' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 37 [1/1] (0.00ns)   --->   "%zext_ln573 = zext i16 %p_Result_6"   --->   Operation 37 'zext' 'zext_ln573' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 38 [1/1] (0.00ns)   --->   "%my_LUT_r_V_addr_1 = getelementptr i1 %my_LUT_r_V, i64 0, i64 %zext_ln573" [cordiccart2pol.cpp:62]   --->   Operation 38 'getelementptr' 'my_LUT_r_V_addr_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 39 [2/2] (3.25ns)   --->   "%my_LUT_r_V_load = load i16 %my_LUT_r_V_addr_1" [cordiccart2pol.cpp:62]   --->   Operation 39 'load' 'my_LUT_r_V_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 1> <Depth = 65536> <RAM>
+ST_2 : Operation 40 [1/1] (0.00ns)   --->   "%my_LUT_th_V_addr_1 = getelementptr i1 %my_LUT_th_V, i64 0, i64 %zext_ln573" [cordiccart2pol.cpp:63]   --->   Operation 40 'getelementptr' 'my_LUT_th_V_addr_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 41 [2/2] (3.25ns)   --->   "%my_LUT_th_V_load = load i16 %my_LUT_th_V_addr_1" [cordiccart2pol.cpp:63]   --->   Operation 41 'load' 'my_LUT_th_V_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 1> <Depth = 65536> <RAM>
+
+State 3 <SV = 2> <Delay = 3.25>
+ST_3 : Operation 42 [1/1] (0.00ns)   --->   "%spectopmodule_ln0 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_1"   --->   Operation 42 'spectopmodule' 'spectopmodule_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 43 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i6 %x"   --->   Operation 43 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 44 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i6 %x, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0"   --->   Operation 44 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 45 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i6 %y"   --->   Operation 45 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 46 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i6 %y, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0"   --->   Operation 46 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 47 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i6 %r"   --->   Operation 47 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 48 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i6 %r, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0"   --->   Operation 48 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 49 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i6 %theta"   --->   Operation 49 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 50 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i6 %theta, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0"   --->   Operation 50 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 51 [1/2] (3.25ns)   --->   "%my_LUT_r_V_load = load i16 %my_LUT_r_V_addr_1" [cordiccart2pol.cpp:62]   --->   Operation 51 'load' 'my_LUT_r_V_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 1> <Depth = 65536> <RAM>
+ST_3 : Operation 52 [1/1] (0.00ns)   --->   "%zext_ln62 = zext i1 %my_LUT_r_V_load" [cordiccart2pol.cpp:62]   --->   Operation 52 'zext' 'zext_ln62' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 53 [1/1] (0.00ns)   --->   "%write_ln62 = write void @_ssdm_op_Write.ap_auto.i6P0A, i6 %r, i6 %zext_ln62" [cordiccart2pol.cpp:62]   --->   Operation 53 'write' 'write_ln62' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 54 [1/2] (3.25ns)   --->   "%my_LUT_th_V_load = load i16 %my_LUT_th_V_addr_1" [cordiccart2pol.cpp:63]   --->   Operation 54 'load' 'my_LUT_th_V_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 1> <Depth = 65536> <RAM>
+ST_3 : Operation 55 [1/1] (0.00ns)   --->   "%zext_ln63 = zext i1 %my_LUT_th_V_load" [cordiccart2pol.cpp:63]   --->   Operation 55 'zext' 'zext_ln63' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 56 [1/1] (0.00ns)   --->   "%write_ln63 = write void @_ssdm_op_Write.ap_auto.i6P0A, i6 %theta, i6 %zext_ln63" [cordiccart2pol.cpp:63]   --->   Operation 56 'write' 'write_ln63' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 57 [1/1] (0.00ns)   --->   "%ret_ln64 = ret" [cordiccart2pol.cpp:64]   --->   Operation 57 'ret' 'ret_ln64' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 3.25ns
+The critical path consists of the following:
+	'alloca' operation ('my_LUT_th.V', cordiccart2pol.cpp:42) [16]  (0 ns)
+	'getelementptr' operation ('my_LUT_th_V_addr') [18]  (0 ns)
+	'store' operation ('store_ln740') of constant 0 on array 'my_LUT_th.V', cordiccart2pol.cpp:42 [19]  (3.25 ns)
+
+ <State 2>: 5.48ns
+The critical path consists of the following:
+	wire read operation ('y_read') on port 'y' [14]  (0 ns)
+	'and' operation ('and_ln795_1') [39]  (0 ns)
+	'xor' operation ('xor_ln340_1') [43]  (0.978 ns)
+	'select' operation ('select_ln340_1') [45]  (1.25 ns)
+	'getelementptr' operation ('my_LUT_r_V_addr_1', cordiccart2pol.cpp:62) [48]  (0 ns)
+	'load' operation ('my_LUT_r_V_load', cordiccart2pol.cpp:62) on array 'my_LUT_r.V', cordiccart2pol.cpp:43 [49]  (3.25 ns)
+
+ <State 3>: 3.25ns
+The critical path consists of the following:
+	'load' operation ('my_LUT_r_V_load', cordiccart2pol.cpp:62) on array 'my_LUT_r.V', cordiccart2pol.cpp:43 [49]  (3.25 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

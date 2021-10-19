@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="cordiccart2pol" solutionName="solution1" date="2021-10-17T19:38:30.431-0700" type="Warning"/>
+        <logs message="WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_27_1'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('lhs_write_ln17', cordiccart2pol.cpp:17) of variable 'y_i.V', cordiccart2pol.cpp:17 on local variable 'lhs' and 'load' operation ('lhs_load') on local variable 'lhs'.&#xA;Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.1;t=hls+guidance;d=200-880.html" projectName="cordiccart2pol" solutionName="solution1" date="2021-10-17T19:38:28.662-0700" type="Warning"/>
+        <logs message="WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_27_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('lhs_write_ln17', cordiccart2pol.cpp:17) of variable 'y_i.V', cordiccart2pol.cpp:17 on local variable 'lhs' and 'load' operation ('lhs_load') on local variable 'lhs'.&#xA;Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.1;t=hls+guidance;d=200-880.html" projectName="cordiccart2pol" solutionName="solution1" date="2021-10-17T19:38:28.637-0700" type="Warning"/>
+        <logs message="WARNING: [HLS 200-880] The II Violation in module 'cordiccart2pol' (loop 'VITIS_LOOP_27_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0) between 'store' operation ('lhs_write_ln17', cordiccart2pol.cpp:17) of variable 'y_i.V', cordiccart2pol.cpp:17 on local variable 'lhs' and 'load' operation ('lhs_load') on local variable 'lhs'.&#xA;Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.1;t=hls+guidance;d=200-880.html" projectName="cordiccart2pol" solutionName="solution1" date="2021-10-17T19:38:28.628-0700" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-803] Dropped interface mode 'ap_auto' on 'theta' (cordiccart2pol.cpp:13) as it is incompatible with its interface mode 's_axilite'." projectName="cordiccart2pol" solutionName="solution1" date="2021-10-17T19:38:27.401-0700" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-803] Dropped interface mode 'ap_auto' on 'r' (cordiccart2pol.cpp:13) as it is incompatible with its interface mode 's_axilite'." projectName="cordiccart2pol" solutionName="solution1" date="2021-10-17T19:38:27.391-0700" type="Warning"/>
+        <logs message="WARNING: [SYNCHK 200-23] /tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_fixed_base.h:1000: variable-indexed range selection may cause suboptimal QoR." projectName="cordiccart2pol" solutionName="solution1" date="2021-10-17T19:38:27.153-0700" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': /tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16" projectName="cordiccart2pol" solutionName="solution1" date="2021-10-17T19:38:20.299-0700" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

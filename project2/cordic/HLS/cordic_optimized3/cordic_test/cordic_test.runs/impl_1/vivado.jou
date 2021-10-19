@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:09:46 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Sun Oct 17 18:44:32 2021
+# Process ID: 162860
+# Current directory: /home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.runs/impl_1
+# Command line: vivado -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: /home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

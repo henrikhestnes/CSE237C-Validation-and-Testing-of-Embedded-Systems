@@ -1,0 +1,302 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:09:46 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Sun Oct 17 18:40:11 2021
+# Process ID: 161675
+# Current directory: /home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.runs/design_1_cordiccart2pol_0_0_synth_1
+# Command line: vivado -log design_1_cordiccart2pol_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_cordiccart2pol_0_0.tcl
+# Log file: /home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.runs/design_1_cordiccart2pol_0_0_synth_1/design_1_cordiccart2pol_0_0.vds
+# Journal file: /home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.runs/design_1_cordiccart2pol_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_cordiccart2pol_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordiccart2pol/solution1/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2021.1/data/ip'.
+Command: synth_design -top design_1_cordiccart2pol_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 161824
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 2544.391 ; gain = 0.000 ; free physical = 144 ; free virtual = 1459
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_cordiccart2pol_0_0' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ip/design_1_cordiccart2pol_0_0/synth/design_1_cordiccart2pol_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol.v:12]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol_Kvalues' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_Kvalues.v:6]
+INFO: [Synth 8-3876] $readmem data file './cordiccart2pol_Kvalues.dat' is read successfully [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_Kvalues.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol_Kvalues' (1#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_Kvalues.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol_angles' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_angles.v:6]
+INFO: [Synth 8-3876] $readmem data file './cordiccart2pol_angles.dat' is read successfully [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_angles.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol_angles' (2#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_angles.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol_control_s_axi' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_control_s_axi.v:6]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_control_s_axi.v:226]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol_control_s_axi' (3#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_control_s_axi.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1_ip' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/ip/cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1_ip.v:60]
+INFO: [Synth 8-6157] synthesizing module 'LUT1' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:59102]
+INFO: [Synth 8-6155] done synthesizing module 'LUT1' (4#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:59102]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1_ip' (23#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/ip/cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1_ip.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1' (24#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1_ip' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/ip/cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1_ip.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1_ip' (32#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/ip/cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1_ip.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1' (33#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1_ip' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/ip/cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1_ip.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1_ip' (39#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/ip/cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1_ip.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1' (40#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol_fpext_32ns_64_2_no_dsp_1' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_fpext_32ns_64_2_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol_fpext_32ns_64_2_no_dsp_1_ip' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/ip/cordiccart2pol_fpext_32ns_64_2_no_dsp_1_ip.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol_fpext_32ns_64_2_no_dsp_1_ip' (41#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/ip/cordiccart2pol_fpext_32ns_64_2_no_dsp_1_ip.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol_fpext_32ns_64_2_no_dsp_1' (42#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_fpext_32ns_64_2_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1_ip' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/ip/cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1_ip.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1_ip' (45#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/ip/cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1_ip.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1' (46#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol_dmul_64ns_64ns_64_7_max_dsp_1' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_dmul_64ns_64ns_64_7_max_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'cordiccart2pol_dmul_64ns_64ns_64_7_max_dsp_1_ip' [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/ip/cordiccart2pol_dmul_64ns_64ns_64_7_max_dsp_1_ip.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol_dmul_64ns_64ns_64_7_max_dsp_1_ip' (48#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/ip/cordiccart2pol_dmul_64ns_64ns_64_7_max_dsp_1_ip.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol_dmul_64ns_64ns_64_7_max_dsp_1' (49#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol_dmul_64ns_64ns_64_7_max_dsp_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'cordiccart2pol' (50#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ipshared/7650/hdl/verilog/cordiccart2pol.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_cordiccart2pol_0_0' (51#1) [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ip/design_1_cordiccart2pol_0_0/synth/design_1_cordiccart2pol_0_0.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:34 ; elapsed = 00:00:49 . Memory (MB): peak = 2544.391 ; gain = 0.000 ; free physical = 2066 ; free virtual = 3448
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:54 . Memory (MB): peak = 2544.391 ; gain = 0.000 ; free physical = 2151 ; free virtual = 3396
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:38 ; elapsed = 00:00:54 . Memory (MB): peak = 2544.391 ; gain = 0.000 ; free physical = 2151 ; free virtual = 3396
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.45 ; elapsed = 00:00:00.45 . Memory (MB): peak = 2544.391 ; gain = 0.000 ; free physical = 2141 ; free virtual = 3387
+INFO: [Netlist 29-17] Analyzing 469 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ip/design_1_cordiccart2pol_0_0/constraints/cordiccart2pol_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.gen/sources_1/bd/design_1/ip/design_1_cordiccart2pol_0_0/constraints/cordiccart2pol_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.runs/design_1_cordiccart2pol_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.runs/design_1_cordiccart2pol_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2630.141 ; gain = 0.000 ; free physical = 1880 ; free virtual = 3129
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  FDE => FDRE: 6 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.41 . Memory (MB): peak = 2630.141 ; gain = 0.000 ; free physical = 1868 ; free virtual = 3122
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:57 ; elapsed = 00:01:19 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 1692 ; free virtual = 3014
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:57 ; elapsed = 00:01:19 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 1691 ; free virtual = 3012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.runs/design_1_cordiccart2pol_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:58 ; elapsed = 00:01:19 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 1689 ; free virtual = 3010
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'cordiccart2pol_control_s_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'cordiccart2pol_control_s_axi'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                               11
+*
+                  WRIDLE |                             0010 |                               00
+                  WRDATA |                             0100 |                               01
+                  WRRESP |                             1000 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'cordiccart2pol_control_s_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              001 |                               10
+*
+                  RDIDLE |                              010 |                               00
+                  RDDATA |                              100 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rstate_reg' using encoding 'one-hot' in module 'cordiccart2pol_control_s_axi'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:04 ; elapsed = 00:01:27 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 2006 ; free virtual = 3365
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1:/cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/SUB_DELAY' (delay__parameterized0) to 'cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1:/cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/SUB_ADD_IP_DELAY'
+INFO: [Synth 8-223] decloning instance 'cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1:/cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1:/cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1:/cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1:/cordiccart2pol_faddfsub_32ns_32ns_32_5_full_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1:/cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1:/cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1:/cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1:/cordiccart2pol_fmul_32ns_32ns_32_4_max_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/fptrunc_64ns_32_2_no_dsp_1_U5/cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1_ip_u/inst/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized0) to 'inst/fptrunc_64ns_32_2_no_dsp_1_U5/cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1_ip_u/inst/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'inst/fptrunc_64ns_32_2_no_dsp_1_U5/cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1_ip_u/inst/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/EXP_INC_DELAY' (delay__parameterized0) to 'inst/fptrunc_64ns_32_2_no_dsp_1_U5/cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1_ip_u/inst/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'inst/fptrunc_64ns_32_2_no_dsp_1_U5/cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/fptrunc_64ns_32_2_no_dsp_1_U5/cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'inst/fptrunc_64ns_32_2_no_dsp_1_U5/cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/fptrunc_64ns_32_2_no_dsp_1_U5/cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/fptrunc_64ns_32_2_no_dsp_1_U5/cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/fptrunc_64ns_32_2_no_dsp_1_U5/cordiccart2pol_fptrunc_64ns_32_2_no_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/fpext_32ns_64_2_no_dsp_1_U6/cordiccart2pol_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/fpext_32ns_64_2_no_dsp_1_U6/cordiccart2pol_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'inst/fpext_32ns_64_2_no_dsp_1_U6/cordiccart2pol_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/fpext_32ns_64_2_no_dsp_1_U6/cordiccart2pol_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/fpext_32ns_64_2_no_dsp_1_U6/cordiccart2pol_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/fpext_32ns_64_2_no_dsp_1_U6/cordiccart2pol_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/fcmp_32ns_32ns_1_2_no_dsp_1_U7/cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/fcmp_32ns_32ns_1_2_no_dsp_1_U7/cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/inst/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/fcmp_32ns_32ns_1_2_no_dsp_1_U7/cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/fcmp_32ns_32ns_1_2_no_dsp_1_U7/cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/inst/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/fcmp_32ns_32ns_1_2_no_dsp_1_U7/cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/fcmp_32ns_32ns_1_2_no_dsp_1_U7/cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/fcmp_32ns_32ns_1_2_no_dsp_1_U7/cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/fcmp_32ns_32ns_1_2_no_dsp_1_U7/cordiccart2pol_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/dmul_64ns_64ns_64_7_max_dsp_1_U8/cordiccart2pol_dmul_64ns_64ns_64_7_max_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/dmul_64ns_64ns_64_7_max_dsp_1_U8/cordiccart2pol_dmul_64ns_64ns_64_7_max_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/dmul_64ns_64ns_64_7_max_dsp_1_U8/cordiccart2pol_dmul_64ns_64ns_64_7_max_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/dmul_64ns_64ns_64_7_max_dsp_1_U8/cordiccart2pol_dmul_64ns_64ns_64_7_max_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:16 ; elapsed = 00:01:42 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 3656 ; free virtual = 5135
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:34 ; elapsed = 00:02:00 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 4377 ; free virtual = 5912
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:36 ; elapsed = 00:02:02 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 4378 ; free virtual = 5913
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:39 ; elapsed = 00:02:05 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 4368 ; free virtual = 5878
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:45 ; elapsed = 00:02:11 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 4313 ; free virtual = 5824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:45 ; elapsed = 00:02:11 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 4313 ; free virtual = 5824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:46 ; elapsed = 00:02:12 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 4313 ; free virtual = 5824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:46 ; elapsed = 00:02:12 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 4313 ; free virtual = 5824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:46 ; elapsed = 00:02:12 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 4310 ; free virtual = 5823
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:46 ; elapsed = 00:02:12 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 4310 ; free virtual = 5824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |     6|
+|2     |DSP48E1 |    21|
+|16    |LUT1    |    31|
+|17    |LUT2    |   145|
+|18    |LUT3    |   484|
+|19    |LUT4    |   183|
+|20    |LUT5    |   207|
+|21    |LUT6    |   270|
+|22    |MUXCY   |   288|
+|23    |SRL16E  |    18|
+|24    |XORCY   |   126|
+|25    |FDE     |     6|
+|26    |FDRE    |  1441|
+|27    |FDSE    |    15|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:46 ; elapsed = 00:02:12 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 4310 ; free virtual = 5824
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:36 ; elapsed = 00:01:59 . Memory (MB): peak = 2630.141 ; gain = 0.000 ; free physical = 4381 ; free virtual = 5895
+Synthesis Optimization Complete : Time (s): cpu = 00:01:46 ; elapsed = 00:02:12 . Memory (MB): peak = 2630.141 ; gain = 85.750 ; free physical = 4381 ; free virtual = 5895
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.20 . Memory (MB): peak = 2630.141 ; gain = 0.000 ; free physical = 4469 ; free virtual = 5983
+INFO: [Netlist 29-17] Analyzing 447 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2649.125 ; gain = 0.000 ; free physical = 4401 ; free virtual = 5917
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 86 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 80 instances
+  FDE => FDRE: 6 instances
+
+Synth Design complete, checksum: bef0d369
+INFO: [Common 17-83] Releasing license: Synthesis
+82 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:11 ; elapsed = 00:02:26 . Memory (MB): peak = 2649.125 ; gain = 104.828 ; free physical = 4613 ; free virtual = 6128
+INFO: [Common 17-1381] The checkpoint '/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.runs/design_1_cordiccart2pol_0_0_synth_1/design_1_cordiccart2pol_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_cordiccart2pol_0_0, cache-ID = eeeee78d2682cc47
+INFO: [Coretcl 2-1174] Renamed 303 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project2/cordic/HLS/cordic_optimized3/cordic_test/cordic_test.runs/design_1_cordiccart2pol_0_0_synth_1/design_1_cordiccart2pol_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_cordiccart2pol_0_0_utilization_synth.rpt -pb design_1_cordiccart2pol_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 17 18:43:14 2021...

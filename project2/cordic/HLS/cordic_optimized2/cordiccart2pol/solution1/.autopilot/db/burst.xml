@@ -1,0 +1,6 @@
+<VitisHLS:BurstInfo>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="cordiccart2pol.cpp:41:9" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by theta" ID="_ZNK13ap_fixed_baseILi17ELi4ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEcvfEv.exit.store.1" VarName="theta"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="cordiccart2pol.cpp:40:5" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by r" ID="_ZNK13ap_fixed_baseILi34ELi8ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEcvfEv.exit.store.1" VarName="r"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="/tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_fixed_base.h:712:20" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by getelementptr" ID="_ZgtILi17ELi4ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit.load.30" VarName="angles"/>
+</VitisHLS:BurstInfo>
+

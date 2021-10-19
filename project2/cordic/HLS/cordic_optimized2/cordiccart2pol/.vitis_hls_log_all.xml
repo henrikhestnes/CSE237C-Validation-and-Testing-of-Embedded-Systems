@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="cordiccart2pol" solutionName="solution1" date="2021-10-17T19:43:29.717-0700" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-803] Dropped interface mode 'ap_auto' on 'theta' (cordiccart2pol.cpp:13) as it is incompatible with its interface mode 's_axilite'." projectName="cordiccart2pol" solutionName="solution1" date="2021-10-17T19:43:27.465-0700" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-803] Dropped interface mode 'ap_auto' on 'r' (cordiccart2pol.cpp:13) as it is incompatible with its interface mode 's_axilite'." projectName="cordiccart2pol" solutionName="solution1" date="2021-10-17T19:43:27.445-0700" type="Warning"/>
+        <logs message="WARNING: [SYNCHK 200-23] /tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_fixed_base.h:1000: variable-indexed range selection may cause suboptimal QoR." projectName="cordiccart2pol" solutionName="solution1" date="2021-10-17T19:43:27.154-0700" type="Warning"/>
+        <logs message="WARNING: [HLS 214-238] The INTERFACE pragma actions in object field. If on struct field, the struct argument must be pointer or reference. If struct by value, this interface pragma will be viewed as invalid and ignored. In function 'cordiccart2pol(float, float, float*, float*)' (cordiccart2pol.cpp:14:0)" projectName="cordiccart2pol" solutionName="solution1" date="2021-10-17T19:43:26.544-0700" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5301] unused parameter 'print': /tools/Xilinx/Vitis_HLS/2021.1/common/technology/autopilot/ap_int_base.h:792:16" projectName="cordiccart2pol" solutionName="solution1" date="2021-10-17T19:43:21.022-0700" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
