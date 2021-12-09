@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="fm_demodulator.h" path="/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/final_project/CSE237C_final_project/HLS_code/fm_demodulator.h"/>
+    <originFiles name="fm_demodulator.cpp" path="/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/final_project/CSE237C_final_project/HLS_code/fm_demodulator.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="fm_demodulator_test.cpp" path="/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/final_project/CSE237C_final_project/HLS_code/fm_demodulator_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

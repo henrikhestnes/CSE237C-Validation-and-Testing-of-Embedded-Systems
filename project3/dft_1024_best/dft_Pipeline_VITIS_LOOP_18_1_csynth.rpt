@@ -1,0 +1,150 @@
+
+
+================================================================
+== Vitis HLS Report for 'dft_Pipeline_VITIS_LOOP_18_1'
+================================================================
+* Date:           Tue Nov  2 14:20:15 2021
+
+* Version:        2021.1.1 (Build 3286242 on Wed Jul 28 13:09:46 MDT 2021)
+* Project:        hls
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  5.134 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+    |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+    +---------+---------+-----------+-----------+------+------+---------+
+    |     1026|     1026|  10.260 us|  10.260 us|  1026|  1026|       no|
+    +---------+---------+-----------+-----------+------+------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                   |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |     Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_18_1  |     1024|     1024|         1|          1|          1|  1024|       yes|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     28|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        -|    -|       -|      -|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       -|     45|    -|
+|Register         |        -|    -|      13|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|      13|     73|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|     ~0|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |           Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |add_ln18_fu_104_p2                |         +|   0|  0|  12|          11|           1|
+    |ap_condition_115                  |       and|   0|  0|   2|           1|           1|
+    |icmp_ln18_fu_98_p2                |      icmp|   0|  0|  12|          11|          12|
+    |ap_block_state1_pp0_stage0_iter0  |        or|   0|  0|   2|           1|           1|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |Total                             |          |   0|  0|  28|          24|          15|
+    +----------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +----------------------+----+-----------+-----+-----------+
+    |         Name         | LUT| Input Size| Bits| Total Bits|
+    +----------------------+----+-----------+-----+-----------+
+    |INPUT_I_TDATA_blk_n   |   9|          2|    1|          2|
+    |INPUT_R_TDATA_blk_n   |   9|          2|    1|          2|
+    |ap_done_int           |   9|          2|    1|          2|
+    |ap_sig_allocacmp_i_1  |   9|          2|   11|         22|
+    |i_fu_46               |   9|          2|   11|         22|
+    +----------------------+----+-----------+-----+-----------+
+    |Total                 |  45|         10|   25|         50|
+    +----------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------+----+----+-----+-----------+
+    |     Name    | FF | LUT| Bits| Const Bits|
+    +-------------+----+----+-----+-----------+
+    |ap_CS_fsm    |   1|   0|    1|          0|
+    |ap_done_reg  |   1|   0|    1|          0|
+    |i_fu_46      |  11|   0|   11|          0|
+    +-------------+----+----+-----+-----------+
+    |Total        |  13|   0|   13|          0|
+    +-------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------------+-----+-----+------------+------------------------------+--------------+
+|          RTL Ports         | Dir | Bits|  Protocol  |         Source Object        |    C Type    |
++----------------------------+-----+-----+------------+------------------------------+--------------+
+|ap_clk                      |   in|    1|  ap_ctrl_hs|  dft_Pipeline_VITIS_LOOP_18_1|  return value|
+|ap_rst                      |   in|    1|  ap_ctrl_hs|  dft_Pipeline_VITIS_LOOP_18_1|  return value|
+|ap_start                    |   in|    1|  ap_ctrl_hs|  dft_Pipeline_VITIS_LOOP_18_1|  return value|
+|ap_done                     |  out|    1|  ap_ctrl_hs|  dft_Pipeline_VITIS_LOOP_18_1|  return value|
+|ap_idle                     |  out|    1|  ap_ctrl_hs|  dft_Pipeline_VITIS_LOOP_18_1|  return value|
+|ap_ready                    |  out|    1|  ap_ctrl_hs|  dft_Pipeline_VITIS_LOOP_18_1|  return value|
+|INPUT_R_TVALID              |   in|    1|        axis|                       INPUT_R|       pointer|
+|INPUT_R_TDATA               |   in|   64|        axis|                       INPUT_R|       pointer|
+|INPUT_R_TREADY              |  out|    1|        axis|                       INPUT_R|       pointer|
+|INPUT_I_TVALID              |   in|    1|        axis|                       INPUT_I|       pointer|
+|INPUT_I_TDATA               |   in|   64|        axis|                       INPUT_I|       pointer|
+|INPUT_I_TREADY              |  out|    1|        axis|                       INPUT_I|       pointer|
+|INTERNAL_R_data_V_address0  |  out|   10|   ap_memory|             INTERNAL_R_data_V|         array|
+|INTERNAL_R_data_V_ce0       |  out|    1|   ap_memory|             INTERNAL_R_data_V|         array|
+|INTERNAL_R_data_V_we0       |  out|    1|   ap_memory|             INTERNAL_R_data_V|         array|
+|INTERNAL_R_data_V_d0        |  out|   64|   ap_memory|             INTERNAL_R_data_V|         array|
+|INTERNAL_I_data_V_address0  |  out|   10|   ap_memory|             INTERNAL_I_data_V|         array|
+|INTERNAL_I_data_V_ce0       |  out|    1|   ap_memory|             INTERNAL_I_data_V|         array|
+|INTERNAL_I_data_V_we0       |  out|    1|   ap_memory|             INTERNAL_I_data_V|         array|
+|INTERNAL_I_data_V_d0        |  out|   64|   ap_memory|             INTERNAL_I_data_V|         array|
++----------------------------+-----+-----+------------+------------------------------+--------------+
+

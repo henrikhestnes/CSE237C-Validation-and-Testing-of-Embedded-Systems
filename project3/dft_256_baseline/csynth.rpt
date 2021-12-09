@@ -1,0 +1,91 @@
+
+
+================================================================
+== Synthesis Summary Report of 'dft'
+================================================================
++ General Information: 
+    * Date:           Tue Oct 19 19:28:37 2021
+    * Version:        2021.1.1 (Build 3286242 on Wed Jul 28 13:09:46 MDT 2021)
+    * Project:        hls
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg484-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +----------------------------------+------+------+---------+-----------+----------+---------+------+----------+---------+----------+-----------+------------+-----+
+    |              Modules             | Issue|      | Latency |  Latency  | Iteration|         | Trip |          |         |          |           |            |     |
+    |              & Loops             | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined|  BRAM   |    DSP   |     FF    |     LUT    | URAM|
+    +----------------------------------+------+------+---------+-----------+----------+---------+------+----------+---------+----------+-----------+------------+-----+
+    |+ dft                             |     -|  0.04|  3545346|  3.545e+07|         -|  3545347|     -|        no|  2 (~0%)|  45 (20%)|  5184 (4%)|  8852 (16%)|    -|
+    | + grp_sin_or_cos_float_s_fu_197  |     -|  0.23|       28|    280.000|         -|       28|     -|        no|        -|    9 (4%)|  1576 (1%)|   2820 (5%)|    -|
+    |  o Loop 1                        |     -|  7.30|        2|     20.000|         1|        -|     2|        no|        -|         -|          -|           -|    -|
+    |  o Loop 2                        |     -|  7.30|        5|     50.000|         2|        -|     2|        no|        -|         -|          -|           -|    -|
+    | + grp_sin_or_cos_float_s_fu_212  |     -|  0.23|       28|    280.000|         -|       28|     -|        no|        -|    9 (4%)|  1576 (1%)|   2820 (5%)|    -|
+    |  o Loop 1                        |     -|  7.30|        2|     20.000|         1|        -|     2|        no|        -|         -|          -|           -|    -|
+    |  o Loop 2                        |     -|  7.30|        5|     50.000|         2|        -|     2|        no|        -|         -|          -|           -|    -|
+    | o FOR1OUTER                      |     -|  7.30|  3544832|  3.545e+07|     13847|        -|   256|        no|        -|         -|          -|           -|    -|
+    |  o FOR1NESTED                    |     -|  7.30|    13824|  1.382e+05|        54|        -|   256|        no|        -|         -|          -|           -|    -|
+    | o FOR2                           |     -|  7.30|      512|  5.120e+03|         2|        -|   256|        no|        -|         -|          -|           -|    -|
+    +----------------------------------+------+------+---------+-----------+----------+---------+------+----------+---------+----------+-----------+------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AP_MEMORY
++----------------------+----------+
+| Interface            | Bitwidth |
++----------------------+----------+
+| imag_sample_address0 | 8        |
+| imag_sample_d0       | 32       |
+| imag_sample_q0       | 32       |
+| real_sample_address0 | 8        |
+| real_sample_d0       | 32       |
+| real_sample_q0       | 32       |
++----------------------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++-------------+-----------+----------+
+| Argument    | Direction | Datatype |
++-------------+-----------+----------+
+| real_sample | inout     | float*   |
+| imag_sample | inout     | float*   |
++-------------+-----------+----------+
+
+* SW-to-HW Mapping
++-------------+----------------------+---------+----------+
+| Argument    | HW Name              | HW Type | HW Usage |
++-------------+----------------------+---------+----------+
+| real_sample | real_sample_address0 | port    | offset   |
+| real_sample | real_sample_ce0      | port    |          |
+| real_sample | real_sample_we0      | port    |          |
+| real_sample | real_sample_d0       | port    |          |
+| real_sample | real_sample_q0       | port    |          |
+| imag_sample | imag_sample_address0 | port    | offset   |
+| imag_sample | imag_sample_ce0      | port    |          |
+| imag_sample | imag_sample_we0      | port    |          |
+| imag_sample | imag_sample_d0       | port    |          |
+| imag_sample | imag_sample_q0       | port    |          |
++-------------+----------------------+---------+----------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+

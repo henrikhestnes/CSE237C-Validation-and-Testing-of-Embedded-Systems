@@ -1,1 +1,0 @@
-set ::AESL_AUTOSIM::gTopFileName /home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/project1/fir128_optimized1/baseline/solution1/./sim/autowrap/testbench/fir.cpp_pre.cpp.tb.cpp

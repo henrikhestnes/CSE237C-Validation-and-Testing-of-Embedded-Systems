@@ -1,0 +1,182 @@
+
+
+================================================================
+== Vitis HLS Report for 'dft'
+================================================================
+* Date:           Sat Oct 30 18:08:28 2021
+
+* Version:        2021.1.1 (Build 3286242 on Wed Jul 28 13:09:46 MDT 2021)
+* Project:        hls
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.256 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+--------+--------+---------+
+    |  Latency (cycles) |  Latency (absolute) |     Interval    | Pipeline|
+    |   min   |   max   |    min   |    max   |   min  |   max  |   Type  |
+    +---------+---------+----------+----------+--------+--------+---------+
+    |   332801|   332801|  3.328 ms|  3.328 ms|  332802|  332802|       no|
+    +---------+---------+----------+----------+--------+--------+---------+
+
+    + Detail: 
+        * Instance: 
+        +------------------------------------+-------------------------+---------+---------+-----------+-----------+------+------+---------+
+        |                                    |                         |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+        |              Instance              |          Module         |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+        +------------------------------------+-------------------------+---------+---------+-----------+-----------+------+------+---------+
+        |grp_dft_Pipeline_FOR1NESTED_fu_162  |dft_Pipeline_FOR1NESTED  |     1297|     1297|  12.970 us|  12.970 us|  1297|  1297|       no|
+        +------------------------------------+-------------------------+---------+---------+-----------+-----------+------+------+---------+
+
+        * Loop: 
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+        |             |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |  Loop Name  |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- FOR1OUTER  |   332800|   332800|      1300|          -|          -|   256|        no|
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     25|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        2|    5|     925|   1118|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       -|    146|    -|
+|Register         |        -|    -|      39|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        2|    5|     964|   1289|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |       ~0|    2|      ~0|      2|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +------------------------------------+-------------------------+---------+----+-----+------+-----+
+    |              Instance              |          Module         | BRAM_18K| DSP|  FF |  LUT | URAM|
+    +------------------------------------+-------------------------+---------+----+-----+------+-----+
+    |grp_dft_Pipeline_FOR1NESTED_fu_162  |dft_Pipeline_FOR1NESTED  |        2|   5|  925|  1118|    0|
+    +------------------------------------+-------------------------+---------+----+-----+------+-----+
+    |Total                               |                         |        2|   5|  925|  1118|    0|
+    +------------------------------------+-------------------------+---------+----+-----+------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------+----------+----+---+----+------------+------------+
+    |    Variable Name    | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------+----------+----+---+----+------------+------------+
+    |add_ln15_fu_195_p2   |         +|   0|  0|  14|           9|           1|
+    |icmp_ln15_fu_189_p2  |      icmp|   0|  0|  11|           9|          10|
+    +---------------------+----------+----+---+----+------------+------------+
+    |Total                |          |   0|  0|  25|          18|          11|
+    +---------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +---------------------+----+-----------+-----+-----------+
+    |         Name        | LUT| Input Size| Bits| Total Bits|
+    +---------------------+----+-----------+-----+-----------+
+    |OUTPUT_I_0_address0  |  14|          3|    7|         21|
+    |OUTPUT_I_0_d0        |  14|          3|   32|         96|
+    |OUTPUT_I_1_address0  |  14|          3|    7|         21|
+    |OUTPUT_I_1_d0        |  14|          3|   32|         96|
+    |OUTPUT_R_0_address0  |  14|          3|    7|         21|
+    |OUTPUT_R_0_d0        |  14|          3|   32|         96|
+    |OUTPUT_R_1_address0  |  14|          3|    7|         21|
+    |OUTPUT_R_1_d0        |  14|          3|   32|         96|
+    |ap_NS_fsm            |  25|          5|    1|          5|
+    |i_fu_62              |   9|          2|    9|         18|
+    +---------------------+----+-----------+-----+-----------+
+    |Total                | 146|         31|  166|        491|
+    +---------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------------------------------------+---+----+-----+-----------+
+    |                       Name                      | FF| LUT| Bits| Const Bits|
+    +-------------------------------------------------+---+----+-----+-----------+
+    |add_ln15_reg_276                                 |  9|   0|    9|          0|
+    |ap_CS_fsm                                        |  4|   0|    4|          0|
+    |grp_dft_Pipeline_FOR1NESTED_fu_162_ap_start_reg  |  1|   0|    1|          0|
+    |i_fu_62                                          |  9|   0|    9|          0|
+    |trunc_ln15_reg_286                               |  1|   0|    1|          0|
+    |trunc_ln25_reg_281                               |  8|   0|    8|          0|
+    |zext_ln18_reg_290                                |  7|   0|   64|         57|
+    +-------------------------------------------------+---+----+-----+-----------+
+    |Total                                            | 39|   0|   96|         57|
+    +-------------------------------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------------+-----+-----+------------+--------------+--------------+
+|      RTL Ports      | Dir | Bits|  Protocol  | Source Object|    C Type    |
++---------------------+-----+-----+------------+--------------+--------------+
+|ap_clk               |   in|    1|  ap_ctrl_hs|           dft|  return value|
+|ap_rst               |   in|    1|  ap_ctrl_hs|           dft|  return value|
+|ap_start             |   in|    1|  ap_ctrl_hs|           dft|  return value|
+|ap_done              |  out|    1|  ap_ctrl_hs|           dft|  return value|
+|ap_idle              |  out|    1|  ap_ctrl_hs|           dft|  return value|
+|ap_ready             |  out|    1|  ap_ctrl_hs|           dft|  return value|
+|INPUT_R_0_address0   |  out|    7|   ap_memory|     INPUT_R_0|         array|
+|INPUT_R_0_ce0        |  out|    1|   ap_memory|     INPUT_R_0|         array|
+|INPUT_R_0_q0         |   in|   32|   ap_memory|     INPUT_R_0|         array|
+|INPUT_R_1_address0   |  out|    7|   ap_memory|     INPUT_R_1|         array|
+|INPUT_R_1_ce0        |  out|    1|   ap_memory|     INPUT_R_1|         array|
+|INPUT_R_1_q0         |   in|   32|   ap_memory|     INPUT_R_1|         array|
+|INPUT_I_0_address0   |  out|    7|   ap_memory|     INPUT_I_0|         array|
+|INPUT_I_0_ce0        |  out|    1|   ap_memory|     INPUT_I_0|         array|
+|INPUT_I_0_q0         |   in|   32|   ap_memory|     INPUT_I_0|         array|
+|INPUT_I_1_address0   |  out|    7|   ap_memory|     INPUT_I_1|         array|
+|INPUT_I_1_ce0        |  out|    1|   ap_memory|     INPUT_I_1|         array|
+|INPUT_I_1_q0         |   in|   32|   ap_memory|     INPUT_I_1|         array|
+|OUTPUT_R_0_address0  |  out|    7|   ap_memory|    OUTPUT_R_0|         array|
+|OUTPUT_R_0_ce0       |  out|    1|   ap_memory|    OUTPUT_R_0|         array|
+|OUTPUT_R_0_we0       |  out|    1|   ap_memory|    OUTPUT_R_0|         array|
+|OUTPUT_R_0_d0        |  out|   32|   ap_memory|    OUTPUT_R_0|         array|
+|OUTPUT_R_1_address0  |  out|    7|   ap_memory|    OUTPUT_R_1|         array|
+|OUTPUT_R_1_ce0       |  out|    1|   ap_memory|    OUTPUT_R_1|         array|
+|OUTPUT_R_1_we0       |  out|    1|   ap_memory|    OUTPUT_R_1|         array|
+|OUTPUT_R_1_d0        |  out|   32|   ap_memory|    OUTPUT_R_1|         array|
+|OUTPUT_I_0_address0  |  out|    7|   ap_memory|    OUTPUT_I_0|         array|
+|OUTPUT_I_0_ce0       |  out|    1|   ap_memory|    OUTPUT_I_0|         array|
+|OUTPUT_I_0_we0       |  out|    1|   ap_memory|    OUTPUT_I_0|         array|
+|OUTPUT_I_0_d0        |  out|   32|   ap_memory|    OUTPUT_I_0|         array|
+|OUTPUT_I_1_address0  |  out|    7|   ap_memory|    OUTPUT_I_1|         array|
+|OUTPUT_I_1_ce0       |  out|    1|   ap_memory|    OUTPUT_I_1|         array|
+|OUTPUT_I_1_we0       |  out|    1|   ap_memory|    OUTPUT_I_1|         array|
+|OUTPUT_I_1_d0        |  out|   32|   ap_memory|    OUTPUT_I_1|         array|
++---------------------+-----+-----+------------+--------------+--------------+
+

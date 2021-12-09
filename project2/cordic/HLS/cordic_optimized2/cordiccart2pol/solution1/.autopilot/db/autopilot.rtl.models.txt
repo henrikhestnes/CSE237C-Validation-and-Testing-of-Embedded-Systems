@@ -1,5 +1,0 @@
-cordiccart2pol_fpext_32ns_64_2_no_dsp_1
-cordiccart2pol_mul_mul_17s_13ns_31_4_1
-cordiccart2pol_angles_V
-cordiccart2pol_control_s_axi
-cordiccart2pol

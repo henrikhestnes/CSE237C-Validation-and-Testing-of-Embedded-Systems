@@ -1,0 +1,51 @@
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2021.1/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'henrikhestnes' on host 'ubuntu' (Linux_x86_64 version 5.4.0-91-generic) on Wed Dec 08 19:16:24 PST 2021
+INFO: [HLS 200-10] On os Ubuntu 20.04.3 LTS
+INFO: [HLS 200-10] In directory '/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/final_project/HLS_code'
+Sourcing Tcl script '/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/final_project/HLS_code/fm_demodulator/solution1/csim.tcl'
+INFO: [HLS 200-1510] Running: open_project fm_demodulator 
+INFO: [HLS 200-10] Opening project '/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/final_project/HLS_code/fm_demodulator'.
+INFO: [HLS 200-1510] Running: set_top fm_demodulator 
+INFO: [HLS 200-1510] Running: add_files fm_demodulator.h 
+INFO: [HLS 200-10] Adding design file 'fm_demodulator.h' to the project
+INFO: [HLS 200-1510] Running: add_files fm_demodulator.cpp 
+INFO: [HLS 200-10] Adding design file 'fm_demodulator.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files samples.h 
+INFO: [HLS 200-10] Adding design file 'samples.h' to the project
+INFO: [HLS 200-1510] Running: add_files -tb fm_demodulator_test.cpp -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'fm_demodulator_test.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution '/home/henrikhestnes/Documents/CSE-237C-Validation-and-Testing-of-Embedded-Systems/final_project/HLS_code/fm_demodulator/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.1;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_compile -unsafe_math_optimizations=1
+INFO: [XFORM 203-1172] Optimizing floating point zeros and discarding its signedness.
+INFO: [XFORM 203-1176] Optimizing floating point comparison without checking NaN.
+INFO: [XFORM 203-1173] Reordering floating point operations aggressively.
+INFO: [HLS 200-1464] Running solution command: config_compile -complex-mul-dsp=0
+INFO: [XFORM 203-1172] Optimizing floating point zeros and discarding its signedness.
+INFO: [XFORM 203-1176] Optimizing floating point comparison without checking NaN.
+INFO: [XFORM 203-1173] Reordering floating point operations aggressively.
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [XFORM 203-1172] Optimizing floating point zeros and discarding its signedness.
+INFO: [XFORM 203-1176] Optimizing floating point comparison without checking NaN.
+INFO: [XFORM 203-1173] Reordering floating point operations aggressively.
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_compile -unsafe_math_optimizations 
+INFO: [XFORM 203-1172] Optimizing floating point zeros and discarding its signedness.
+INFO: [XFORM 203-1176] Optimizing floating point comparison without checking NaN.
+INFO: [XFORM 203-1173] Reordering floating point operations aggressively.
+INFO: [HLS 200-1510] Running: set_directive_top -name fm_demodulator fm_demodulator 
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../fm_demodulator_test.cpp in debug mode
+   Generating csim.exe
+
+***TESTING ALL TOGETHER***
+PASS: MAE: 2.02317e-14
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 2.41 seconds. CPU system time: 0.22 seconds. Elapsed time: 1.91 seconds; current allocated memory: 251.900 MB.

@@ -1,0 +1,115 @@
+
+
+================================================================
+== Synthesis Summary Report of 'dft'
+================================================================
++ General Information: 
+    * Date:           Sat Oct 30 18:45:13 2021
+    * Version:        2021.1.1 (Build 3286242 on Wed Jul 28 13:09:46 MDT 2021)
+    * Project:        hls
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg484-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +---------------------------------------+------+------+---------+-----------+----------+---------+------+----------+---------+--------+-----------+-----------+-----+
+    |                Modules                | Issue|      | Latency |  Latency  | Iteration|         | Trip |          |         |        |           |           |     |
+    |                & Loops                | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined|  BRAM   |   DSP  |     FF    |    LUT    | URAM|
+    +---------------------------------------+------+------+---------+-----------+----------+---------+------+----------+---------+--------+-----------+-----------+-----+
+    |+ dft                                  |     -|  0.04|   332801|  3.328e+06|         -|   332802|     -|        no|  2 (~0%)|  5 (2%)|  964 (~0%)|  1289 (2%)|    -|
+    | + grp_dft_Pipeline_FOR1NESTED_fu_162  |     -|  0.04|     1297|  1.297e+04|         -|     1297|     -|        no|  2 (~0%)|  5 (2%)|  925 (~0%)|  1118 (2%)|    -|
+    |  o FOR1NESTED                         |    II|  7.30|     1295|  1.295e+04|        21|        5|   256|       yes|        -|       -|          -|          -|    -|
+    | o FOR1OUTER                           |     -|  7.30|   332800|  3.328e+06|      1300|        -|   256|        no|        -|       -|          -|          -|    -|
+    +---------------------------------------+------+------+---------+-----------+----------+---------+------+----------+---------+--------+-----------+-----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AP_MEMORY
++---------------------+----------+
+| Interface           | Bitwidth |
++---------------------+----------+
+| INPUT_I_0_address0  | 7        |
+| INPUT_I_0_q0        | 32       |
+| INPUT_I_1_address0  | 7        |
+| INPUT_I_1_q0        | 32       |
+| INPUT_R_0_address0  | 7        |
+| INPUT_R_0_q0        | 32       |
+| INPUT_R_1_address0  | 7        |
+| INPUT_R_1_q0        | 32       |
+| OUTPUT_I_0_address0 | 7        |
+| OUTPUT_I_0_d0       | 32       |
+| OUTPUT_I_1_address0 | 7        |
+| OUTPUT_I_1_d0       | 32       |
+| OUTPUT_R_0_address0 | 7        |
+| OUTPUT_R_0_d0       | 32       |
+| OUTPUT_R_1_address0 | 7        |
+| OUTPUT_R_1_d0       | 32       |
++---------------------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| INPUT_R  | in        | float*   |
+| INPUT_I  | in        | float*   |
+| OUTPUT_R | out       | float*   |
+| OUTPUT_I | out       | float*   |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+---------------------+---------+----------+
+| Argument | HW Name             | HW Type | HW Usage |
++----------+---------------------+---------+----------+
+| INPUT_R  | INPUT_R_0_address0  | port    | offset   |
+| INPUT_R  | INPUT_R_0_ce0       | port    |          |
+| INPUT_R  | INPUT_R_0_q0        | port    |          |
+| INPUT_R  | INPUT_R_1_address0  | port    | offset   |
+| INPUT_R  | INPUT_R_1_ce0       | port    |          |
+| INPUT_R  | INPUT_R_1_q0        | port    |          |
+| INPUT_I  | INPUT_I_0_address0  | port    | offset   |
+| INPUT_I  | INPUT_I_0_ce0       | port    |          |
+| INPUT_I  | INPUT_I_0_q0        | port    |          |
+| INPUT_I  | INPUT_I_1_address0  | port    | offset   |
+| INPUT_I  | INPUT_I_1_ce0       | port    |          |
+| INPUT_I  | INPUT_I_1_q0        | port    |          |
+| OUTPUT_R | OUTPUT_R_0_address0 | port    | offset   |
+| OUTPUT_R | OUTPUT_R_0_ce0      | port    |          |
+| OUTPUT_R | OUTPUT_R_0_we0      | port    |          |
+| OUTPUT_R | OUTPUT_R_0_d0       | port    |          |
+| OUTPUT_R | OUTPUT_R_1_address0 | port    | offset   |
+| OUTPUT_R | OUTPUT_R_1_ce0      | port    |          |
+| OUTPUT_R | OUTPUT_R_1_we0      | port    |          |
+| OUTPUT_R | OUTPUT_R_1_d0       | port    |          |
+| OUTPUT_I | OUTPUT_I_0_address0 | port    | offset   |
+| OUTPUT_I | OUTPUT_I_0_ce0      | port    |          |
+| OUTPUT_I | OUTPUT_I_0_we0      | port    |          |
+| OUTPUT_I | OUTPUT_I_0_d0       | port    |          |
+| OUTPUT_I | OUTPUT_I_1_address0 | port    | offset   |
+| OUTPUT_I | OUTPUT_I_1_ce0      | port    |          |
+| OUTPUT_I | OUTPUT_I_1_we0      | port    |          |
+| OUTPUT_I | OUTPUT_I_1_d0       | port    |          |
++----------+---------------------+---------+----------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+

@@ -1,0 +1,224 @@
+
+
+================================================================
+== Vitis HLS Report for 'dft'
+================================================================
+* Date:           Sat Oct 30 15:25:17 2021
+
+* Version:        2021.1.1 (Build 3286242 on Wed Jul 28 13:09:46 MDT 2021)
+* Project:        hls
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.256 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+--------+--------+----------+
+    |  Latency (cycles) |  Latency (absolute) |     Interval    | Pipeline |
+    |   min   |   max   |    min   |    max   |   min  |   max  |   Type   |
+    +---------+---------+----------+----------+--------+--------+----------+
+    |   658692|   658692|  6.587 ms|  6.587 ms|  658434|  658434|  dataflow|
+    +---------+---------+----------+----------+--------+--------+----------+
+
+    + Detail: 
+        * Instance: 
+        +-----------------------+--------------------+---------+---------+----------+----------+--------+--------+---------+
+        |                       |                    |  Latency (cycles) |  Latency (absolute) |     Interval    | Pipeline|
+        |        Instance       |       Module       |   min   |   max   |    min   |    max   |   min  |   max  |   Type  |
+        +-----------------------+--------------------+---------+---------+----------+----------+--------+--------+---------+
+        |split4_U0              |split4              |      258|      258|  2.580 us|  2.580 us|     258|     258|       no|
+        |split_U0               |split               |      258|      258|  2.580 us|  2.580 us|     258|     258|       no|
+        |calculate_output_r_U0  |calculate_output_r  |   658433|   658433|  6.584 ms|  6.584 ms|  658433|  658433|       no|
+        |calculate_output_i_U0  |calculate_output_i  |   658433|   658433|  6.584 ms|  6.584 ms|  658433|  658433|       no|
+        +-----------------------+--------------------+---------+---------+----------+----------+--------+--------+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     44|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        4|   10|    1528|   2398|    -|
+|Memory           |        4|    -|       0|      0|    0|
+|Multiplexer      |        -|    -|       -|     72|    -|
+|Register         |        -|    -|       8|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        8|   10|    1536|   2514|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        2|    4|       1|      4|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +-----------------------+--------------------+---------+----+-----+------+-----+
+    |        Instance       |       Module       | BRAM_18K| DSP|  FF |  LUT | URAM|
+    +-----------------------+--------------------+---------+----+-----+------+-----+
+    |calculate_output_i_U0  |calculate_output_i  |        2|   5|  743|  1125|    0|
+    |calculate_output_r_U0  |calculate_output_r  |        2|   5|  743|  1139|    0|
+    |split_U0               |split               |        0|   0|   21|    67|    0|
+    |split4_U0              |split4              |        0|   0|   21|    67|    0|
+    +-----------------------+--------------------+---------+----+-----+------+-----+
+    |Total                  |                    |        4|  10| 1528|  2398|    0|
+    +-----------------------+--------------------+---------+----+-----+------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    +---------------+-------------+---------+---+----+-----+------+-----+------+-------------+
+    |     Memory    |    Module   | BRAM_18K| FF| LUT| URAM| Words| Bits| Banks| W*Bits*Banks|
+    +---------------+-------------+---------+---+----+-----+------+-----+------+-------------+
+    |INTERNAL_R1_U  |INTERNAL_R1  |        1|  0|   0|    0|   256|   32|     1|         8192|
+    |INTERNAL_R2_U  |INTERNAL_R1  |        1|  0|   0|    0|   256|   32|     1|         8192|
+    |INTERNAL_I1_U  |INTERNAL_R1  |        1|  0|   0|    0|   256|   32|     1|         8192|
+    |INTERNAL_I2_U  |INTERNAL_R1  |        1|  0|   0|    0|   256|   32|     1|         8192|
+    +---------------+-------------+---------+---+----+-----+------+-----+------+-------------+
+    |Total          |             |        4|  0|   0|    0|  1024|  128|     4|        32768|
+    +---------------+-------------+---------+---+----+-----+------+-----+------+-------------+
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------------------------+----------+----+---+----+------------+------------+
+    |              Variable Name             | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------------------+----------+----+---+----+------------+------------+
+    |ap_channel_done_INTERNAL_I1             |       and|   0|  0|   2|           1|           1|
+    |ap_channel_done_INTERNAL_I2             |       and|   0|  0|   2|           1|           1|
+    |ap_channel_done_INTERNAL_R1             |       and|   0|  0|   2|           1|           1|
+    |ap_channel_done_INTERNAL_R2             |       and|   0|  0|   2|           1|           1|
+    |ap_idle                                 |       and|   0|  0|   2|           1|           1|
+    |ap_sync_continue                        |       and|   0|  0|   2|           1|           1|
+    |ap_sync_done                            |       and|   0|  0|   2|           1|           1|
+    |ap_sync_ready                           |       and|   0|  0|   2|           1|           1|
+    |calculate_output_i_U0_ap_start          |       and|   0|  0|   2|           1|           1|
+    |calculate_output_r_U0_ap_start          |       and|   0|  0|   2|           1|           1|
+    |split4_U0_ap_continue                   |       and|   0|  0|   2|           1|           1|
+    |split4_U0_ap_start                      |       and|   0|  0|   2|           1|           1|
+    |split_U0_ap_continue                    |       and|   0|  0|   2|           1|           1|
+    |split_U0_ap_start                       |       and|   0|  0|   2|           1|           1|
+    |ap_sync_calculate_output_i_U0_ap_ready  |        or|   0|  0|   2|           1|           1|
+    |ap_sync_calculate_output_r_U0_ap_ready  |        or|   0|  0|   2|           1|           1|
+    |ap_sync_channel_write_INTERNAL_I1       |        or|   0|  0|   2|           1|           1|
+    |ap_sync_channel_write_INTERNAL_I2       |        or|   0|  0|   2|           1|           1|
+    |ap_sync_channel_write_INTERNAL_R1       |        or|   0|  0|   2|           1|           1|
+    |ap_sync_channel_write_INTERNAL_R2       |        or|   0|  0|   2|           1|           1|
+    |ap_sync_split4_U0_ap_ready              |        or|   0|  0|   2|           1|           1|
+    |ap_sync_split_U0_ap_ready               |        or|   0|  0|   2|           1|           1|
+    +----------------------------------------+----------+----+---+----+------------+------------+
+    |Total                                   |          |   0|  0|  44|          22|          22|
+    +----------------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +--------------------------------------------+----+-----------+-----+-----------+
+    |                    Name                    | LUT| Input Size| Bits| Total Bits|
+    +--------------------------------------------+----+-----------+-----+-----------+
+    |ap_sync_reg_calculate_output_i_U0_ap_ready  |   9|          2|    1|          2|
+    |ap_sync_reg_calculate_output_r_U0_ap_ready  |   9|          2|    1|          2|
+    |ap_sync_reg_channel_write_INTERNAL_I1       |   9|          2|    1|          2|
+    |ap_sync_reg_channel_write_INTERNAL_I2       |   9|          2|    1|          2|
+    |ap_sync_reg_channel_write_INTERNAL_R1       |   9|          2|    1|          2|
+    |ap_sync_reg_channel_write_INTERNAL_R2       |   9|          2|    1|          2|
+    |ap_sync_reg_split4_U0_ap_ready              |   9|          2|    1|          2|
+    |ap_sync_reg_split_U0_ap_ready               |   9|          2|    1|          2|
+    +--------------------------------------------+----+-----------+-----+-----------+
+    |Total                                       |  72|         16|    8|         16|
+    +--------------------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------------------------------+---+----+-----+-----------+
+    |                    Name                    | FF| LUT| Bits| Const Bits|
+    +--------------------------------------------+---+----+-----+-----------+
+    |ap_sync_reg_calculate_output_i_U0_ap_ready  |  1|   0|    1|          0|
+    |ap_sync_reg_calculate_output_r_U0_ap_ready  |  1|   0|    1|          0|
+    |ap_sync_reg_channel_write_INTERNAL_I1       |  1|   0|    1|          0|
+    |ap_sync_reg_channel_write_INTERNAL_I2       |  1|   0|    1|          0|
+    |ap_sync_reg_channel_write_INTERNAL_R1       |  1|   0|    1|          0|
+    |ap_sync_reg_channel_write_INTERNAL_R2       |  1|   0|    1|          0|
+    |ap_sync_reg_split4_U0_ap_ready              |  1|   0|    1|          0|
+    |ap_sync_reg_split_U0_ap_ready               |  1|   0|    1|          0|
+    +--------------------------------------------+---+----+-----+-----------+
+    |Total                                       |  8|   0|    8|          0|
+    +--------------------------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-------------------+-----+-----+---------------+--------------+--------------+
+|     RTL Ports     | Dir | Bits|    Protocol   | Source Object|    C Type    |
++-------------------+-----+-----+---------------+--------------+--------------+
+|ap_clk             |   in|    1|  ap_ctrl_chain|           dft|  return value|
+|ap_rst             |   in|    1|  ap_ctrl_chain|           dft|  return value|
+|ap_start           |   in|    1|  ap_ctrl_chain|           dft|  return value|
+|ap_done            |  out|    1|  ap_ctrl_chain|           dft|  return value|
+|ap_ready           |  out|    1|  ap_ctrl_chain|           dft|  return value|
+|ap_idle            |  out|    1|  ap_ctrl_chain|           dft|  return value|
+|ap_continue        |   in|    1|  ap_ctrl_chain|           dft|  return value|
+|INPUT_R_address0   |  out|    8|      ap_memory|       INPUT_R|         array|
+|INPUT_R_ce0        |  out|    1|      ap_memory|       INPUT_R|         array|
+|INPUT_R_d0         |  out|   32|      ap_memory|       INPUT_R|         array|
+|INPUT_R_q0         |   in|   32|      ap_memory|       INPUT_R|         array|
+|INPUT_R_we0        |  out|    1|      ap_memory|       INPUT_R|         array|
+|INPUT_R_address1   |  out|    8|      ap_memory|       INPUT_R|         array|
+|INPUT_R_ce1        |  out|    1|      ap_memory|       INPUT_R|         array|
+|INPUT_R_d1         |  out|   32|      ap_memory|       INPUT_R|         array|
+|INPUT_R_q1         |   in|   32|      ap_memory|       INPUT_R|         array|
+|INPUT_R_we1        |  out|    1|      ap_memory|       INPUT_R|         array|
+|INPUT_I_address0   |  out|    8|      ap_memory|       INPUT_I|         array|
+|INPUT_I_ce0        |  out|    1|      ap_memory|       INPUT_I|         array|
+|INPUT_I_d0         |  out|   32|      ap_memory|       INPUT_I|         array|
+|INPUT_I_q0         |   in|   32|      ap_memory|       INPUT_I|         array|
+|INPUT_I_we0        |  out|    1|      ap_memory|       INPUT_I|         array|
+|INPUT_I_address1   |  out|    8|      ap_memory|       INPUT_I|         array|
+|INPUT_I_ce1        |  out|    1|      ap_memory|       INPUT_I|         array|
+|INPUT_I_d1         |  out|   32|      ap_memory|       INPUT_I|         array|
+|INPUT_I_q1         |   in|   32|      ap_memory|       INPUT_I|         array|
+|INPUT_I_we1        |  out|    1|      ap_memory|       INPUT_I|         array|
+|OUTPUT_R_address0  |  out|    8|      ap_memory|      OUTPUT_R|         array|
+|OUTPUT_R_ce0       |  out|    1|      ap_memory|      OUTPUT_R|         array|
+|OUTPUT_R_d0        |  out|   32|      ap_memory|      OUTPUT_R|         array|
+|OUTPUT_R_q0        |   in|   32|      ap_memory|      OUTPUT_R|         array|
+|OUTPUT_R_we0       |  out|    1|      ap_memory|      OUTPUT_R|         array|
+|OUTPUT_R_address1  |  out|    8|      ap_memory|      OUTPUT_R|         array|
+|OUTPUT_R_ce1       |  out|    1|      ap_memory|      OUTPUT_R|         array|
+|OUTPUT_R_d1        |  out|   32|      ap_memory|      OUTPUT_R|         array|
+|OUTPUT_R_q1        |   in|   32|      ap_memory|      OUTPUT_R|         array|
+|OUTPUT_R_we1       |  out|    1|      ap_memory|      OUTPUT_R|         array|
+|OUTPUT_I_address0  |  out|    8|      ap_memory|      OUTPUT_I|         array|
+|OUTPUT_I_ce0       |  out|    1|      ap_memory|      OUTPUT_I|         array|
+|OUTPUT_I_d0        |  out|   32|      ap_memory|      OUTPUT_I|         array|
+|OUTPUT_I_q0        |   in|   32|      ap_memory|      OUTPUT_I|         array|
+|OUTPUT_I_we0       |  out|    1|      ap_memory|      OUTPUT_I|         array|
+|OUTPUT_I_address1  |  out|    8|      ap_memory|      OUTPUT_I|         array|
+|OUTPUT_I_ce1       |  out|    1|      ap_memory|      OUTPUT_I|         array|
+|OUTPUT_I_d1        |  out|   32|      ap_memory|      OUTPUT_I|         array|
+|OUTPUT_I_q1        |   in|   32|      ap_memory|      OUTPUT_I|         array|
+|OUTPUT_I_we1       |  out|    1|      ap_memory|      OUTPUT_I|         array|
++-------------------+-----+-----+---------------+--------------+--------------+
+

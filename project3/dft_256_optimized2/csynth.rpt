@@ -1,0 +1,92 @@
+
+
+================================================================
+== Synthesis Summary Report of 'dft'
+================================================================
++ General Information: 
+    * Date:           Thu Oct 28 13:43:03 2021
+    * Version:        2021.1.1 (Build 3286242 on Wed Jul 28 13:09:46 MDT 2021)
+    * Project:        hls
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg484-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +----------------+------+------+---------+-----------+----------+---------+------+----------+---------+---------+-----------+-----------+-----+
+    |     Modules    | Issue|      | Latency |  Latency  | Iteration|         | Trip |          |         |         |           |           |     |
+    |     & Loops    | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined|  BRAM   |   DSP   |     FF    |    LUT    | URAM|
+    +----------------+------+------+---------+-----------+----------+---------+------+----------+---------+---------+-----------+-----------+-----+
+    |+ dft           |     -|  0.04|  1049089|  1.049e+07|         -|  1049090|     -|        no|  2 (~0%)|  16 (7%)|  1460 (1%)|  2337 (4%)|    -|
+    | o FOR1OUTER    |     -|  7.30|  1049088|  1.049e+07|      4098|        -|   256|        no|        -|        -|          -|          -|    -|
+    |  o FOR1NESTED  |     -|  7.30|     4096|  4.096e+04|        16|        -|   256|        no|        -|        -|          -|          -|    -|
+    +----------------+------+------+---------+-----------+----------+---------+------+----------+---------+---------+-----------+-----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AP_MEMORY
++-------------------+----------+
+| Interface         | Bitwidth |
++-------------------+----------+
+| INPUT_I_address0  | 8        |
+| INPUT_I_q0        | 32       |
+| INPUT_R_address0  | 8        |
+| INPUT_R_q0        | 32       |
+| OUTPUT_I_address0 | 8        |
+| OUTPUT_I_d0       | 32       |
+| OUTPUT_R_address0 | 8        |
+| OUTPUT_R_d0       | 32       |
++-------------------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| INPUT_R  | in        | float*   |
+| INPUT_I  | in        | float*   |
+| OUTPUT_R | out       | float*   |
+| OUTPUT_I | out       | float*   |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+-------------------+---------+----------+
+| Argument | HW Name           | HW Type | HW Usage |
++----------+-------------------+---------+----------+
+| INPUT_R  | INPUT_R_address0  | port    | offset   |
+| INPUT_R  | INPUT_R_ce0       | port    |          |
+| INPUT_R  | INPUT_R_q0        | port    |          |
+| INPUT_I  | INPUT_I_address0  | port    | offset   |
+| INPUT_I  | INPUT_I_ce0       | port    |          |
+| INPUT_I  | INPUT_I_q0        | port    |          |
+| OUTPUT_R | OUTPUT_R_address0 | port    | offset   |
+| OUTPUT_R | OUTPUT_R_ce0      | port    |          |
+| OUTPUT_R | OUTPUT_R_we0      | port    |          |
+| OUTPUT_R | OUTPUT_R_d0       | port    |          |
+| OUTPUT_I | OUTPUT_I_address0 | port    | offset   |
+| OUTPUT_I | OUTPUT_I_ce0      | port    |          |
+| OUTPUT_I | OUTPUT_I_we0      | port    |          |
+| OUTPUT_I | OUTPUT_I_d0       | port    |          |
++----------+-------------------+---------+----------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+
