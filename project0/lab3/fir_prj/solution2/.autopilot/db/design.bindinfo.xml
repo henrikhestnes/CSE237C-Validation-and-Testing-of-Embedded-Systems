@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<BindInfo>
-	<BindNode BINDTYPE="op" DISPLAY="bind_op icmp" ID="" IMPL="auto" LATENCY="0" OPTYPE="icmp" PRAGMA="" RTLNAME="icmp_ln66_fu_168_p2" SOURCE="fir.c:66" VARIABLE="icmp_ln66" MODULE="fir" LOOP="Shift_Accum_Loop" DSP="0" BRAM="0" URAM="0"/>
-	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="add_ln70_fu_174_p2" SOURCE="fir.c:70" VARIABLE="add_ln70" MODULE="fir" LOOP="Shift_Accum_Loop" DSP="0" BRAM="0" URAM="0"/>
-	<BindNode BINDTYPE="op" DISPLAY="bind_op mul" ID="" IMPL="auto" LATENCY="0" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U1" SOURCE="fir.c:73" VARIABLE="mul_ln73" MODULE="fir" LOOP="Shift_Accum_Loop" DSP="3" BRAM="0" URAM="0"/>
-	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="acc_1_fu_210_p2" SOURCE="fir.c:73" VARIABLE="acc_1" MODULE="fir" LOOP="Shift_Accum_Loop" DSP="0" BRAM="0" URAM="0"/>
-	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="add_ln65_fu_194_p2" SOURCE="fir.c:65" VARIABLE="add_ln65" MODULE="fir" LOOP="Shift_Accum_Loop" DSP="0" BRAM="0" URAM="0"/>
-	<BindNode BINDTYPE="storage" DISPLAY="bind_storage ram_1p" ID="" IMPL="auto" LATENCY="1" OPTYPE="ram_1p" PRAGMA="" RTLNAME="shift_reg_U" SOURCE="" VARIABLE="shift_reg" MODULE="fir" LOOP="" DSP="0" BRAM="0" URAM="0"/>
-</BindInfo>
